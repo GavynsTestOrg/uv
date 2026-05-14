@@ -2,9 +2,9 @@
 
 ## 2026-05-14
 
-* Improved wording in user facing assertion text and related comments to make messages read more clearly without changing behavior.
-* Accelerated warm runs of `uv lock`, `uv sync`, `python find`, and `python pin` by skipping Python download metadata loading when an installed Python already satisfies the request.
-* Added a dedicated Bazel integration guide so Bazel setup and authentication steps are easier to find and follow.
-* Streamlined wheel builds to write ZIP contents more efficiently, which improves packaging performance when building wheels.
-* Reduced duplicate package entries in CycloneDX software bill of materials output so exported dependency reports stay cleaner and easier to review.
-* Simplified Intel XPU detection on Windows through native system APIs, which keeps hardware detection working while reducing extra dependency overhead.
+* Improved wording in user facing messages and related documentation notes to make the text clearer without changing behavior.
+* Accelerated repeat runs of `uv lock`, `uv sync`, `python find`, and `python pin` when a matching local Python is already available.
+* Added a dedicated Bazel integration guide so Bazel setup and sign in steps are easier to find and follow.
+* Streamlined wheel builds so packaging completes more efficiently.
+* Reduced duplicate entries in exported dependency inventories so package reports stay cleaner and easier to review.
+* Simplified Windows Intel GPU detection so hardware checks keep working with less extra system overhead.
