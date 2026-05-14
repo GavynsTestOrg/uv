@@ -19,7 +19,7 @@ Released on 2026-05-14.
 
 ### Documentation
 
-- Add a Bazel integration guide and move Bazel authentication helper setup out of the generic authentication page ([#19392](https://github.com/astral-sh/uv/pull/19392))
+- Add a Bazel integration guide and move Bazel specific authentication helper setup out of the generic authentication page ([#19392](https://github.com/astral-sh/uv/pull/19392))
 
 ## 0.11.14
 
