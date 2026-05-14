@@ -17,6 +17,10 @@ Released on 2026-05-14.
 - Avoid parsing the downloads JSON manifest when a suitable local Python is already available, which speeds up warm `uv lock`, `uv sync`, `uv python find`, and `uv python pin` runs ([#19398](https://github.com/astral-sh/uv/pull/19398))
 - Optimize async wheel ZIP writing in the build backend to make wheel creation more efficient ([#19383](https://github.com/astral-sh/uv/pull/19383))
 
+### Documentation
+
+- Add a Bazel integration guide and move Bazel authentication helper setup out of the generic authentication page ([#19392](https://github.com/astral-sh/uv/pull/19392))
+
 ## 0.11.14
 
 Released on 2026-05-12.
