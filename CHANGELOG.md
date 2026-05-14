@@ -3,6 +3,15 @@
 <!-- prettier-ignore-start -->
 
 
+## 0.11.15
+
+Released on 2026-05-14.
+
+### Enhancements
+
+- Remove duplicate `spdx`, `base64`, and `bitflags` crate entries from generated SBOM exports ([#19386](https://github.com/astral-sh/uv/pull/19386))
+- Improve Intel XPU detection on Windows by using Configuration Manager APIs instead of WMI ([#19387](https://github.com/astral-sh/uv/pull/19387))
+
 ## 0.11.14
 
 Released on 2026-05-12.
