@@ -12,6 +12,11 @@ Released on 2026-05-14.
 - Remove duplicate `spdx`, `base64`, and `bitflags` crate entries from generated SBOM exports ([#19386](https://github.com/astral-sh/uv/pull/19386))
 - Improve Intel XPU detection on Windows by using Configuration Manager APIs instead of WMI ([#19387](https://github.com/astral-sh/uv/pull/19387))
 
+### Performance
+
+- Avoid parsing the downloads JSON manifest when a suitable local Python is already available, which speeds up warm `uv lock`, `uv sync`, `uv python find`, and `uv python pin` runs ([#19398](https://github.com/astral-sh/uv/pull/19398))
+- Optimize async wheel ZIP writing in the build backend to make wheel creation more efficient ([#19383](https://github.com/astral-sh/uv/pull/19383))
+
 ## 0.11.14
 
 Released on 2026-05-12.
