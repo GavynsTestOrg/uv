@@ -49,24 +49,24 @@ uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
 Instala uv con nuestros instaladores independientes:
 
 ```bash
-# On macOS and Linux.
+# En macOS y Linux.
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 ```bash
-# On Windows.
+# En Windows.
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 O bien, desde [PyPI](https://pypi.org/project/uv/):
 
 ```bash
-# With pip.
+# Con pip.
 pip install uv
 ```
 
 ```bash
-# Or pipx.
+# O con pipx.
 pipx install uv
 ```
 
@@ -87,7 +87,7 @@ Además, la documentación de referencia de la línea de comandos puede consulta
 
 ## Características
 
-### Projects
+### Proyectos
 
 uv gestiona dependencias y entornos de proyectos, con soporte para lockfiles, workspaces y más,
 de forma similar a `rye` o `poetry`:
@@ -147,7 +147,7 @@ Installed 5 packages in 12ms
 
 Consulta la [documentación de scripts](https://docs.astral.sh/uv/guides/scripts/) para comenzar.
 
-### Tools
+### Herramientas
 
 uv ejecuta e instala herramientas de línea de comandos proporcionadas por paquetes de Python, de forma similar a `pipx`.
 
@@ -225,7 +225,7 @@ Pinned `.python-version` to `3.11`
 Consulta la [documentación de instalación de Python](https://docs.astral.sh/uv/guides/install-python/) para
 comenzar.
 
-### The pip interface
+### La interfaz pip
 
 uv proporciona un reemplazo directo para comandos comunes de `pip`, `pip-tools` y `virtualenv`.
 
