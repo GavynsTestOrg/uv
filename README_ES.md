@@ -21,7 +21,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
   <i>Instalando las dependencias de <a href="https://trio.readthedocs.io/">Trio</a> con una caché precalentada.</i>
 </p>
 
-## Highlights
+## Aspectos destacados
 
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` y
   más.
@@ -44,7 +44,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
 [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty).
 
-## Installation
+## Instalación
 
 Instala uv con nuestros instaladores independientes:
 
@@ -79,15 +79,15 @@ uv self update
 Consulta la [documentación de instalación](https://docs.astral.sh/uv/getting-started/installation/) para
 obtener detalles y métodos de instalación alternativos.
 
-## Documentation
+## Documentación
 
 La documentación de uv está disponible en [docs.astral.sh/uv](https://docs.astral.sh/uv).
 
-Además, la documentación de referencia de la línea de comandos puede verse con `uv help`.
+Además, `uv help` muestra la documentación de referencia de la línea de comandos.
 
-## Features
+## Funcionalidades
 
-### Projects
+### Proyectos
 
 uv gestiona dependencias y entornos de proyectos, con soporte para archivos de bloqueo, workspaces y más,
 de forma similar a `rye` o `poetry`:
@@ -147,7 +147,7 @@ Installed 5 packages in 12ms
 
 Consulta la [documentación de scripts](https://docs.astral.sh/uv/guides/scripts/) para comenzar.
 
-### Tools
+### Herramientas
 
 uv ejecuta e instala herramientas de línea de comandos proporcionadas por paquetes de Python, de forma similar a `pipx`.
 
@@ -185,7 +185,7 @@ ruff 0.5.0
 
 Consulta la [documentación de herramientas](https://docs.astral.sh/uv/guides/tools/) para comenzar.
 
-### Python versions
+### Versiones de Python
 
 uv instala Python y permite cambiar rápidamente entre versiones.
 
@@ -225,11 +225,11 @@ Pinned `.python-version` to `3.11`
 Consulta la [documentación de instalación de Python](https://docs.astral.sh/uv/guides/install-python/) para
 comenzar.
 
-### The pip interface
+### La interfaz de pip
 
-uv proporciona un reemplazo inmediato para comandos comunes de `pip`, `pip-tools` y `virtualenv`.
+uv ofrece un reemplazo directo para comandos comunes de `pip`, `pip-tools` y `virtualenv`.
 
-uv amplía sus interfaces con funciones avanzadas, como anulaciones de versiones de dependencias,
+uv amplía sus interfaces con funciones avanzadas, como reemplazos de versiones de dependencias,
 resoluciones independientes de la plataforma, resoluciones reproducibles, estrategias de resolución alternativas y
 más.
 
@@ -268,13 +268,13 @@ Installed 43 packages in 208ms
 
 Consulta la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/index/) para comenzar.
 
-## Contributing
+## Contribuir
 
-Existe una gran pasión por apoyar a colaboradores de todos los niveles de experiencia y encantaría ver
-participación en el proyecto. Consulta la
+El proyecto apoya a colaboradores de todos los niveles de experiencia y recibe con gusto su
+participación. Consulta la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
-## FAQ
+## Preguntas frecuentes
 
 #### How do you pronounce uv?
 
@@ -293,23 +293,23 @@ Consulta el documento de [soporte de plataformas](https://docs.astral.sh/uv/refe
 Sí, uv es estable y se usa ampliamente en producción. Consulta el documento de
 [política de versionado](https://docs.astral.sh/uv/reference/versioning/) de uv para obtener detalles.
 
-## Acknowledgements
+## Agradecimientos
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe gratitud hacia
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece a
 las personas encargadas de mantener PubGrub, en especial [Jacob Finkelman](https://github.com/Eh2406), por
 su apoyo.
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
 Algunas de las optimizaciones de uv están inspiradas en el gran trabajo visto en [pnpm](https://pnpm.io/),
-[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También se aprendió
-mucho del [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su
+[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). uv también aprendió
+mucho del [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y adaptó su
 [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
 para compatibilidad con Windows.
 
-## License
+## Licencia
 
-uv se distribuye bajo una de estas licencias
+uv se distribuye bajo una de estas licencias:
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or
   <https://www.apache.org/licenses/LICENSE-2.0>)
