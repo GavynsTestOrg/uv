@@ -70,7 +70,7 @@ pip install uv
 pipx install uv
 ```
 
-Si se instala mediante el instalador independiente, uv puede actualizarse a la versión más reciente:
+Si se instala mediante el instalador independiente, uv puede actualizar su versión a la más reciente:
 
 ```bash
 uv self update
@@ -270,7 +270,7 @@ Consulta la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 
 ## Contribución
 
-Existe un fuerte compromiso con apoyar a personas colaboradoras de todos los niveles de experiencia y será excelente ver participación en el proyecto. Consulta la
+El proyecto apoya a personas colaboradoras de todos los niveles de experiencia y valora su participación. Consulta la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para empezar.
 
 ## Preguntas frecuentes
@@ -294,14 +294,14 @@ Sí, uv es estable y se usa ampliamente en producción. Consulta el documento de
 
 ## Agradecimientos
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Hay un agradecimiento especial a las personas mantenedoras de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece el apoyo de las personas mantenedoras de PubGrub, en especial de [Jacob Finkelman](https://github.com/Eh2406).
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
-Algunas de las optimizaciones de uv se inspiran en el gran trabajo presente en [pnpm](https://pnpm.io/),
-[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También hubo mucho aprendizaje del [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su
+Algunas de las optimizaciones de uv se inspiran en el gran trabajo de [pnpm](https://pnpm.io/),
+[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). uv también aprendió mucho del [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y adaptó su
 [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
-para soporte en Windows.
+para dar soporte a Windows.
 
 ## Licencia
 
