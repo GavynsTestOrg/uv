@@ -41,7 +41,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
 - Admite macOS, Linux y Windows.
 
-uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
+uv cuenta con el respaldo de [Astral](https://astral.sh), creadores de
 [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty).
 
 ## Instalación
@@ -270,8 +270,7 @@ Consulta la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 
 ## Contribuir
 
-Nos apasiona apoyar a colaboradores de todos los niveles de experiencia y nos encantaría ver
-que se involucren en el proyecto. Consulta la
+Existe un fuerte compromiso con el apoyo a colaboradores de todos los niveles de experiencia, y su participación en el proyecto es bienvenida. Consulta la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para
 comenzar.
 
@@ -283,7 +282,7 @@ Se pronuncia como "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Hel
 
 #### ¿Cómo debería escribirse uv?
 
-Simplemente "uv", por favor. Consulta la [guía de estilo](./STYLE.md#styling-uv) para ver más detalles.
+Simplemente "uv". Consulta la [guía de estilo](./STYLE.md#styling-uv) para ver más detalles.
 
 #### ¿Qué plataformas admite uv?
 
@@ -318,8 +317,8 @@ uv está disponible bajo cualquiera de las siguientes licencias:
 
 a elección de quien lo use.
 
-A menos que se indique explícitamente lo contrario, cualquier contribución enviada intencionalmente para su inclusión en uv
-por quien la envía, según se define en la licencia Apache-2.0, tendrá doble licencia como se indicó antes, sin
+A menos que se indique explícitamente lo contrario, cualquier contribución enviada intencionalmente para su inclusión en uv,
+según se define en la licencia Apache-2.0, tendrá doble licencia como se indicó antes, sin
 términos ni condiciones adicionales.
 
 <div align="center">
