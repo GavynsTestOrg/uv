@@ -294,7 +294,7 @@ Sí, uv es estable y se usa ampliamente en producción. Consulta el documento de
 
 ## Acknowledgements
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe un profundo agradecimiento a quienes mantienen PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
+El sistema de resolución de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe un profundo agradecimiento a quienes mantienen PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
