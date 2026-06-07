@@ -38,7 +38,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
   proyectos escalables.
 - Uso eficiente del espacio en disco, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para
   la desduplicación de dependencias.
-- Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
+- Instale uv sin Rust ni Python mediante `curl` o `pip`.
 - Compatible con macOS, Linux y Windows.
 
 uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
@@ -70,7 +70,7 @@ pip install uv
 pipx install uv
 ```
 
-Si se instaló mediante el instalador independiente, uv puede actualizarse a sí mismo a la versión más reciente:
+Si la instalación usa el instalador independiente, uv puede actualizarse a sí mismo a la versión más reciente:
 
 ```bash
 uv self update
@@ -81,11 +81,11 @@ obtener más detalles y métodos de instalación alternativos.
 
 ## Documentación
 
-La documentación de uv está disponible en [docs.astral.sh/uv](https://docs.astral.sh/uv).
+La documentación de uv está en [docs.astral.sh/uv](https://docs.astral.sh/uv).
 
-Además, la documentación de referencia de la línea de comandos se puede consultar con `uv help`.
+Además, `uv help` muestra la documentación de referencia de la línea de comandos.
 
-## Funciones
+## Características
 
 ### Proyectos
 
@@ -270,14 +270,14 @@ Consulte la [documentación de la interfaz de pip](https://docs.astral.sh/uv/pip
 
 ## Contribuir
 
-Existe un fuerte compromiso con el apoyo a colaboradores con cualquier nivel de experiencia y será excelente contar con su participación en el proyecto. Consulte la
+El proyecto apoya a colaboradores de todos los niveles de experiencia y agradece su participación. Consulte la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## FAQ
 
 #### ¿Cómo se pronuncia uv?
 
-Se pronuncia como "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
+La pronunciación es "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
 
 #### ¿Cómo se debe escribir uv?
 
@@ -294,7 +294,7 @@ Sí, uv es estable y se usa ampliamente en producción. Consulte el documento de
 
 ## Agradecimientos
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe agradecimiento hacia los mantenedores de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece el apoyo de los mantenedores de PubGrub, en especial de [Jacob Finkelman](https://github.com/Eh2406).
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
@@ -305,16 +305,16 @@ para la compatibilidad con Windows.
 
 ## Licencia
 
-uv se distribuye bajo una de las siguientes licencias:
+uv usa una de las siguientes licencias:
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) o
   <https://www.apache.org/licenses/LICENSE-2.0>)
 - Licencia MIT ([LICENSE-MIT](LICENSE-MIT) o <https://opensource.org/licenses/MIT>)
 
-a elección del usuario.
+La elección queda a criterio del usuario.
 
-A menos que se indique explícitamente lo contrario, cualquier contribución enviada intencionadamente para su inclusión en uv,
-según se define en la licencia Apache-2.0, quedará sujeta a doble licencia como se indica arriba, sin
+A menos que una indicación explícita establezca lo contrario, cualquier contribución enviada intencionadamente para su inclusión en uv,
+según la definición de la licencia Apache-2.0, quedará bajo doble licencia como se indica arriba, sin
 términos ni condiciones adicionales.
 
 <div align="center">
