@@ -26,13 +26,13 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Una única herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` y
   más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
-- Proporciona [gestión integral de proyectos](#projects), con un
+- Proporciona [gestión integral de proyectos](#proyectos), con un
   [archivo de bloqueo universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con soporte para
   [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
-- [Instala y gestiona](#python-versions) versiones de Python.
-- [Ejecuta e instala](#tools) herramientas publicadas como paquetes de Python.
-- Incluye una [interfaz compatible con pip](#the-pip-interface) para obtener una mejora de rendimiento con una
+- [Instala y gestiona](#versiones-de-python) versiones de Python.
+- [Ejecuta e instala](#herramientas) herramientas publicadas como paquetes de Python.
+- Incluye una [interfaz compatible con pip](#la-interfaz-de-pip) para obtener una mejora de rendimiento con una
   CLI conocida.
 - Admite [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para
   proyectos escalables.
