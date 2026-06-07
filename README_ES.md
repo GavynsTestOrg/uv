@@ -27,7 +27,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
   más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
 - Proporciona [gestión integral de proyectos](#projects), con un
-  [archivo de bloqueo universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
+  [lockfile universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con soporte para
   [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
 - [Instala y gestiona](#python-versions) versiones de Python.
@@ -229,7 +229,7 @@ comenzar.
 
 uv ofrece un reemplazo directo para comandos comunes de `pip`, `pip-tools` y `virtualenv`.
 
-uv amplía sus interfaces con funciones avanzadas, como reemplazos de versiones de dependencias,
+uv amplía sus interfaces con funciones avanzadas, como ajustes de versiones de dependencias,
 resoluciones independientes de la plataforma, resoluciones reproducibles, estrategias de resolución alternativas y
 más.
 
@@ -276,19 +276,19 @@ participación. Consulta la
 
 ## Preguntas frecuentes
 
-#### How do you pronounce uv?
+#### ¿Cómo se pronuncia uv?
 
 Se pronuncia como "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
 
-#### How should I stylize uv?
+#### ¿Cómo debe escribirse uv?
 
 Simplemente "uv", por favor. Consulta la [guía de estilo](./STYLE.md#styling-uv) para obtener detalles.
 
-#### What platforms does uv support?
+#### ¿Qué plataformas admite uv?
 
 Consulta el documento de [soporte de plataformas](https://docs.astral.sh/uv/reference/platforms/) de uv.
 
-#### Is uv ready for production?
+#### ¿Está uv listo para producción?
 
 Sí, uv es estable y se usa ampliamente en producción. Consulta el documento de
 [política de versionado](https://docs.astral.sh/uv/reference/versioning/) de uv para obtener detalles.
