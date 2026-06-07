@@ -316,7 +316,7 @@ uv se distribuye bajo una de las siguientes licencias:
 
 a elección de quien lo use.
 
-A menos que se indique explícitamente lo contrario, cualquier contribución que alguien envíe intencionalmente para su inclusión en uv,
+A menos que se indique explícitamente lo contrario, cualquier contribución que una persona envíe intencionalmente para su inclusión en uv,
 tal como se define en la licencia Apache-2.0, tendrá doble licencia como se indicó arriba, sin
 términos ni condiciones adicionales.
 
