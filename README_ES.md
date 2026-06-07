@@ -305,13 +305,13 @@ para la compatibilidad con Windows.
 
 ## Licencia
 
-uv usa una de las siguientes licencias:
+uv se ofrece bajo una de las siguientes licencias:
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) o
   <https://www.apache.org/licenses/LICENSE-2.0>)
 - Licencia MIT ([LICENSE-MIT](LICENSE-MIT) o <https://opensource.org/licenses/MIT>)
 
-La elección queda a criterio del usuario.
+El usuario puede elegir cualquiera de ellas.
 
 A menos que una indicación explícita establezca lo contrario, cualquier contribución enviada intencionadamente para su inclusión en uv,
 según la definición de la licencia Apache-2.0, quedará bajo doble licencia como se indica arriba, sin
