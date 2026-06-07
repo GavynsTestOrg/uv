@@ -147,7 +147,7 @@ Installed 5 packages in 12ms
 
 Consulte la [documentación de scripts](https://docs.astral.sh/uv/guides/scripts/) para comenzar.
 
-### Tools
+### Herramientas
 
 uv ejecuta e instala herramientas de línea de comandos proporcionadas por paquetes de Python, de forma similar a `pipx`.
 
@@ -165,7 +165,7 @@ Installed 1 package in 9ms
   ------------
    \   ^__^
     \  (oo)\_______
-       (__)\       )\/\\
+       (__)\       )\/\
            ||----w |
            ||     ||
 ```
