@@ -13,7 +13,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
   <picture align="center">
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/astral-sh/uv/assets/1309177/03aa9163-1c79-4a87-a31d-7a9311ed9310">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/astral-sh/uv/assets/1309177/629e59c0-9c6e-4013-9ad4-adb2bcf5080d">
-    <img alt="Muestra un gráfico de barras con resultados de rendimiento comparativo." src="https://github.com/astral-sh/uv/assets/1309177/629e59c0-9c6e-4013-9ad4-adb2bcf5080d">
+    <img alt="Muestra un gráfico de barras con resultados de evaluación comparativa." src="https://github.com/astral-sh/uv/assets/1309177/629e59c0-9c6e-4013-9ad4-adb2bcf5080d">
   </picture>
 </p>
 
