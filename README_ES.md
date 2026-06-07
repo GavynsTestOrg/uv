@@ -41,7 +41,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
 - Admite macOS, Linux y Windows.
 
-uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
+uv cuenta con el respaldo de [Astral](https://astral.sh), creadora de
 [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty).
 
 ## Instalación
@@ -271,7 +271,7 @@ Consulte la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 ## Contribuir
 
 El proyecto apoya a personas colaboradoras de todos los niveles de experiencia y recibe con entusiasmo
-una mayor participación. Consulte la
+nuevas contribuciones. Consulte la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## Preguntas frecuentes
@@ -295,7 +295,7 @@ Sí, uv es estable y se utiliza ampliamente en producción. Consulte el document
 
 ## Agradecimientos
 
-El sistema de resolución de dependencias de uv utiliza [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece al
+El sistema de resolución de dependencias de uv utiliza [PubGrub](https://github.com/pubgrub-rs/pubgrub). uv agradece al
 equipo mantenedor de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por
 su apoyo.
 
