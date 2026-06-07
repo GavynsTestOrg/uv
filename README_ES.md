@@ -18,7 +18,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 </p>
 
 <p align="center">
-  <i>Instalando las dependencias de <a href="https://trio.readthedocs.io/">Trio</a> con una caché caliente.</i>
+  <i>Instalación de las dependencias de <a href="https://trio.readthedocs.io/">Trio</a> con una caché caliente.</i>
 </p>
 
 ## Puntos destacados
