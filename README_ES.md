@@ -21,7 +21,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
   <i>Instalación de las dependencias de <a href="https://trio.readthedocs.io/">Trio</a> con una caché caliente.</i>
 </p>
 
-## Highlights
+## Aspectos destacados
 
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, y
   más.
@@ -44,7 +44,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
 [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty).
 
-## Installation
+## Instalación
 
 Instala uv con nuestros instaladores independientes:
 
@@ -70,7 +70,7 @@ pip install uv
 pipx install uv
 ```
 
-Si se instaló mediante el instalador independiente, uv puede actualizarse a la versión más reciente:
+Si se instala mediante el instalador independiente, uv puede actualizarse a la versión más reciente:
 
 ```bash
 uv self update
@@ -79,15 +79,15 @@ uv self update
 Consulta la [documentación de instalación](https://docs.astral.sh/uv/getting-started/installation/) para ver
 detalles y métodos de instalación alternativos.
 
-## Documentation
+## Documentación
 
 La documentación de uv está disponible en [docs.astral.sh/uv](https://docs.astral.sh/uv).
 
 Además, la documentación de referencia de la línea de comandos puede verse con `uv help`.
 
-## Features
+## Características
 
-### Projects
+### Proyectos
 
 uv administra dependencias y entornos de proyectos, con soporte para archivos de bloqueo, workspaces y más,
 de manera similar a `rye` o `poetry`:
@@ -147,7 +147,7 @@ Installed 5 packages in 12ms
 
 Consulta la [documentación de scripts](https://docs.astral.sh/uv/guides/scripts/) para empezar.
 
-### Tools
+### Herramientas
 
 uv ejecuta e instala herramientas de línea de comandos proporcionadas por paquetes de Python, de forma similar a `pipx`.
 
@@ -185,7 +185,7 @@ ruff 0.5.0
 
 Consulta la [documentación de herramientas](https://docs.astral.sh/uv/guides/tools/) para empezar.
 
-### Python versions
+### Versiones de Python
 
 uv instala Python y permite cambiar rápidamente entre versiones.
 
@@ -225,7 +225,7 @@ Pinned `.python-version` to `3.11`
 Consulta la [documentación de instalación de Python](https://docs.astral.sh/uv/guides/install-python/) para
 empezar.
 
-### The pip interface
+### La interfaz de pip
 
 uv proporciona un reemplazo directo para los comandos comunes de `pip`, `pip-tools` y `virtualenv`.
 
@@ -233,7 +233,7 @@ uv amplía sus interfaces con funciones avanzadas, como anulaciones de versiones
 resoluciones independientes de la plataforma, resoluciones reproducibles, estrategias de resolución alternativas y
 más.
 
-Migra a uv sin cambiar tus flujos de trabajo existentes y experimenta una aceleración de 10-100x con la
+Migra a uv sin cambiar los flujos de trabajo existentes y experimenta una aceleración de 10-100x con la
 interfaz `uv pip`.
 
 Compila requisitos en un archivo de requisitos independiente de la plataforma:
@@ -268,33 +268,33 @@ Installed 43 packages in 208ms
 
 Consulta la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/index/) para empezar.
 
-## Contributing
+## Contribución
 
-Existe un gran interés en apoyar a personas colaboradoras de todos los niveles de experiencia y sería excelente ver participación en el proyecto. Consulta la
+Existe un fuerte compromiso con apoyar a personas colaboradoras de todos los niveles de experiencia y será excelente ver participación en el proyecto. Consulta la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para empezar.
 
-## FAQ
+## Preguntas frecuentes
 
-#### How do you pronounce uv?
+#### ¿Cómo se pronuncia uv?
 
 Se pronuncia como "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
 
-#### How should I stylize uv?
+#### ¿Cómo debe escribirse uv?
 
 Simplemente "uv", por favor. Consulta la [guía de estilo](./STYLE.md#styling-uv) para ver los detalles.
 
-#### What platforms does uv support?
+#### ¿Qué plataformas admite uv?
 
 Consulta el documento de [compatibilidad de plataformas](https://docs.astral.sh/uv/reference/platforms/) de uv.
 
-#### Is uv ready for production?
+#### ¿Está uv listo para producción?
 
 Sí, uv es estable y se usa ampliamente en producción. Consulta el documento de
 [política de versionado](https://docs.astral.sh/uv/reference/versioning/) de uv para ver los detalles.
 
-## Acknowledgements
+## Agradecimientos
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe agradecimiento hacia las personas mantenedoras de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Hay un agradecimiento especial a las personas mantenedoras de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
@@ -303,15 +303,15 @@ Algunas de las optimizaciones de uv se inspiran en el gran trabajo presente en [
 [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
 para soporte en Windows.
 
-## License
+## Licencia
 
-uv se licencia bajo una de las siguientes opciones:
+uv ofrece licencia bajo una de las siguientes opciones:
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or
   <https://www.apache.org/licenses/LICENSE-2.0>)
 - MIT license ([LICENSE-MIT](LICENSE-MIT) or <https://opensource.org/licenses/MIT>)
 
-a elección del usuario.
+a elección de cada persona usuaria.
 
 Salvo que se indique explícitamente lo contrario, cualquier contribución enviada intencionadamente para su inclusión en uv
 por una persona colaboradora, según se define en la licencia Apache-2.0, tendrá doble licencia como se indicó antes, sin
