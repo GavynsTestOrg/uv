@@ -49,7 +49,7 @@ uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
 Instale uv con los instaladores independientes:
 
 ```bash
-# En macOS y Linux.
+# En macOS y en Linux.
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
@@ -66,7 +66,7 @@ pip install uv
 ```
 
 ```bash
-# O con pipx.
+# O con `pipx`.
 pipx install uv
 ```
 
