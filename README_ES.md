@@ -37,8 +37,8 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Admite [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para
   proyectos escalables.
 - Eficiente en espacio de disco, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para
-  la deduplicación de dependencias.
-- Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
+  evitar dependencias duplicadas.
+- Permite la instalación sin Rust ni Python mediante `curl` o `pip`.
 - Admite macOS, Linux y Windows.
 
 uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
@@ -269,8 +269,8 @@ Consulte la [documentación de la interfaz de pip](https://docs.astral.sh/uv/pip
 
 ## Contribuir
 
-Nos apasiona apoyar a personas colaboradoras de todos los niveles de experiencia y sería excelente ver
-que participen en el proyecto. Consulte la
+El proyecto apoya a personas colaboradoras de todos los niveles de experiencia y agradece su
+participación. Consulte la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## FAQ
@@ -289,7 +289,7 @@ Consulte el documento de [compatibilidad de plataformas](https://docs.astral.sh/
 
 #### ¿Está uv listo para producción?
 
-Sí, uv es estable y se usa ampliamente en producción. Consulte el documento de
+Sí, uv es estable y organizaciones y equipos lo usan ampliamente en producción. Consulte el documento de
 [política de versionado](https://docs.astral.sh/uv/reference/versioning/) de uv para obtener detalles.
 
 ## Agradecimientos
@@ -316,8 +316,8 @@ uv se distribuye bajo cualquiera de las siguientes licencias:
 
 a elección de cada persona.
 
-A menos que se indique explícitamente lo contrario, cualquier contribución enviada intencionalmente para su inclusión en uv
-por cualquier persona, según se define en la licencia Apache-2.0, tendrá doble licencia como se indicó arriba, sin
+A menos que se indique explícitamente lo contrario, cualquier contribución enviada intencionalmente para su inclusión en uv,
+según se define en la licencia Apache-2.0, tendrá doble licencia como se indicó arriba, sin
 términos ni condiciones adicionales.
 
 <div align="center">
