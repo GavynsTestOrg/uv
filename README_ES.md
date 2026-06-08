@@ -26,7 +26,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` y
   más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
-- Proporciona una [administración completa de proyectos](#proyectos), con un
+- Proporciona una [gestión completa de proyectos](#proyectos), con un
   [archivo de bloqueo universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con soporte para
   [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
@@ -227,7 +227,7 @@ Consulte la [documentación de instalación de Python](https://docs.astral.sh/uv
 
 uv proporciona un reemplazo directo para los comandos comunes de `pip`, `pip-tools` y `virtualenv`.
 
-uv amplía sus interfaces con funciones avanzadas, como reemplazos de versiones de dependencias,
+uv amplía sus interfaces con funciones avanzadas, como sustituciones de versiones de dependencias,
 resoluciones independientes de la plataforma, resoluciones reproducibles, estrategias de resolución alternativas y
 más.
 
@@ -300,7 +300,7 @@ La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/
 Algunas de las optimizaciones de uv se inspiran en el gran trabajo observado en [pnpm](https://pnpm.io/),
 [Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También se aprendió mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su
 [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
-para soporte en Windows.
+para ofrecer soporte en Windows.
 
 ## Licencia
 
