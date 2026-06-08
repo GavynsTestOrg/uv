@@ -25,11 +25,11 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, y más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
-- Ofrece [gestión integral de proyectos](#projects), con un [lockfile universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
+- Ofrece [gestión integral de proyectos](#proyectos), con un archivo de bloqueo [universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con soporte para [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
-- [Instala y administra](#python-versions) versiones de Python.
-- [Ejecuta e instala](#tools) herramientas publicadas como paquetes de Python.
-- Incluye una [interfaz compatible con pip](#the-pip-interface) para obtener una mejora de rendimiento con una CLI familiar.
+- [Instala y administra](#versiones-de-python) versiones de Python.
+- [Ejecuta e instala](#herramientas) herramientas publicadas como paquetes de Python.
+- Incluye una [interfaz compatible con pip](#la-interfaz-de-pip) para obtener una mejora de rendimiento con una CLI familiar.
 - Soporta [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para proyectos escalables.
 - Eficiente en espacio de disco, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para la deduplicación de dependencias.
 - Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
@@ -79,7 +79,7 @@ Además, la documentación de referencia de la línea de comandos se puede ver c
 
 ## Características
 
-### Projects
+### Proyectos
 
 uv administra las dependencias y los entornos de los proyectos, con soporte para lockfiles, workspaces y más, de forma similar a `rye` o `poetry`:
 
@@ -137,7 +137,7 @@ Installed 5 packages in 12ms
 
 Consulta la [documentación de scripts](https://docs.astral.sh/uv/guides/scripts/) para comenzar.
 
-### Tools
+### Herramientas
 
 uv ejecuta e instala herramientas de línea de comandos proporcionadas por paquetes de Python, de forma similar a `pipx`.
 
@@ -175,7 +175,7 @@ ruff 0.5.0
 
 Consulta la [documentación de herramientas](https://docs.astral.sh/uv/guides/tools/) para comenzar.
 
-### Python versions
+### Versiones de Python
 
 uv instala Python y permite cambiar rápidamente entre versiones.
 
@@ -214,7 +214,7 @@ Pinned `.python-version` to `3.11`
 
 Consulta la [documentación de instalación de Python](https://docs.astral.sh/uv/guides/install-python/) para comenzar.
 
-### The pip interface
+### La interfaz de pip
 
 uv ofrece un reemplazo directo para comandos comunes de `pip`, `pip-tools` y `virtualenv`.
 
