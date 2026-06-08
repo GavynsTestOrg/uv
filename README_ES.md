@@ -256,7 +256,7 @@ Consulte la [documentación de la interfaz de pip](https://docs.astral.sh/uv/pip
 
 ## Cómo contribuir
 
-Se valora a quienes contribuyen en todos los niveles de experiencia y se agradece una mayor participación en el proyecto. Consulte la [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
+El proyecto apoya a quienes contribuyen en todos los niveles de experiencia y recibe con entusiasmo nuevas contribuciones. Consulte la [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## Preguntas frecuentes
 
