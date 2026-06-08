@@ -26,7 +26,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` y
   más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
-- Proporciona una [gestión integral de proyectos](#proyectos), con un
+- Proporciona una [administración completa de proyectos](#proyectos), con un
   [archivo de bloqueo universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con soporte para
   [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
@@ -41,8 +41,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
 - Admite macOS, Linux y Windows.
 
-uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
-[Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty).
+Astral, los creadores de [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty), respaldan uv.
 
 ## Instalación
 
@@ -228,7 +227,7 @@ Consulte la [documentación de instalación de Python](https://docs.astral.sh/uv
 
 uv proporciona un reemplazo directo para los comandos comunes de `pip`, `pip-tools` y `virtualenv`.
 
-uv amplía sus interfaces con funciones avanzadas, como anulaciones de versiones de dependencias,
+uv amplía sus interfaces con funciones avanzadas, como reemplazos de versiones de dependencias,
 resoluciones independientes de la plataforma, resoluciones reproducibles, estrategias de resolución alternativas y
 más.
 
@@ -269,15 +268,15 @@ Consulte la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 
 ## Contribuciones
 
-Existe un fuerte compromiso con el apoyo a colaboradores de todos los niveles de experiencia y sería excelente ver
-participación en el proyecto. Consulte la
+El proyecto apoya a colaboradores de todos los niveles de experiencia y recibe con gusto la
+participación. Consulte la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## Preguntas frecuentes
 
 #### ¿Cómo se pronuncia uv?
 
-Se pronuncia como "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
+Se pronuncia como "iu vi" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
 
 #### ¿Cómo se debe escribir uv?
 
@@ -294,7 +293,7 @@ Sí, uv es estable y se usa ampliamente en producción. Consulte el documento de
 
 ## Agradecimientos
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe un gran agradecimiento a los responsables de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece a los responsables de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
@@ -305,13 +304,13 @@ para soporte en Windows.
 
 ## Licencia
 
-uv está licenciado bajo cualquiera de las siguientes opciones
+uv se ofrece bajo cualquiera de las siguientes opciones de licencia
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) o
   <https://www.apache.org/licenses/LICENSE-2.0>)
 - Licencia MIT ([LICENSE-MIT](LICENSE-MIT) o <https://opensource.org/licenses/MIT>)
 
-a elección de cada persona.
+según se prefiera.
 
 A menos que se indique explícitamente lo contrario, cualquier contribución enviada intencionalmente para su inclusión en uv,
 por cada persona contribuyente, según se define en la licencia Apache-2.0, tendrá doble licencia como se indicó antes, sin
