@@ -49,24 +49,24 @@ uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
 Instale uv con los instaladores independientes:
 
 ```bash
-# On macOS and Linux.
+# En macOS y Linux.
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 ```bash
-# On Windows.
+# En Windows.
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
 O bien, desde [PyPI](https://pypi.org/project/uv/):
 
 ```bash
-# With pip.
+# Con pip.
 pip install uv
 ```
 
 ```bash
-# Or pipx.
+# O con pipx.
 pipx install uv
 ```
 
