@@ -27,7 +27,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
   más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
 - Proporciona una [gestión completa de proyectos](#projects), con un
-  [lockfile universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
+  [archivo de bloqueo universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con compatibilidad con
   [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
 - [Instala y administra](#python-versions) versiones de Python.
@@ -38,7 +38,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
   proyectos escalables.
 - Eficiente en espacio en disco, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para
   la deduplicación de dependencias.
-- Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
+- Permite la instalación sin Rust ni Python mediante `curl` o `pip`.
 - Admite macOS, Linux y Windows.
 
 uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
@@ -277,7 +277,7 @@ Existe un gran interés en apoyar a colaboradores de todos los niveles de experi
 
 #### ¿Cómo se pronuncia uv?
 
-Se pronuncia como "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
+La pronunciación es "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
 
 #### ¿Cómo debe escribirse uv?
 
@@ -293,14 +293,14 @@ Sí, uv es estable y tiene un uso amplio en producción. Consulte el documento d
 
 ## Agradecimientos
 
-El sistema de resolución de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Hay un agradecimiento especial para los mantenedores de PubGrub, en particular [Jacob Finkelman](https://github.com/Eh2406), por el apoyo.
+El motor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. El proyecto agradece el apoyo de los mantenedores de PubGrub, en particular [Jacob Finkelman](https://github.com/Eh2406).
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
 Algunas de las optimizaciones de uv se inspiran en el gran trabajo presente en [pnpm](https://pnpm.io/),
-[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También hubo mucho aprendizaje a partir de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su
+[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). uv también aprendió mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y adaptó su
 [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
-para el soporte de Windows.
+para ofrecer soporte en Windows.
 
 ## Licencia
 
