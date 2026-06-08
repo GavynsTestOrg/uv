@@ -85,9 +85,9 @@ La documentación de uv está disponible en [docs.astral.sh/uv](https://docs.ast
 
 Además, la documentación de referencia de la línea de comandos se puede consultar con `uv help`.
 
-## Funciones
+## Características
 
-### Projects
+### Proyectos
 
 uv administra dependencias y entornos de proyectos, con soporte para lockfiles, workspaces y más,
 de forma similar a `rye` o `poetry`:
@@ -147,7 +147,7 @@ Installed 5 packages in 12ms
 
 Consulta la [documentación de scripts](https://docs.astral.sh/uv/guides/scripts/) para empezar.
 
-### Tools
+### Herramientas
 
 uv ejecuta e instala herramientas de línea de comandos proporcionadas por paquetes de Python, de
 forma similar a `pipx`.
@@ -186,7 +186,7 @@ ruff 0.5.0
 
 Consulta la [documentación de herramientas](https://docs.astral.sh/uv/guides/tools/) para empezar.
 
-### Python versions
+### Versiones de Python
 
 uv instala Python y permite cambiar rápidamente entre versiones.
 
@@ -226,7 +226,7 @@ Pinned `.python-version` to `3.11`
 Consulta la [documentación de instalación de Python](https://docs.astral.sh/uv/guides/install-python/)
 para empezar.
 
-### The pip interface
+### La interfaz de pip
 
 uv proporciona un reemplazo directo para los comandos comunes de `pip`, `pip-tools` y `virtualenv`.
 
