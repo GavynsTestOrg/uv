@@ -18,7 +18,7 @@ Un gestor de proyectos y paquetes de Python extremadamente rápido, escrito en R
 </p>
 
 <p align="center">
-  <i>Instalación de las dependencias de <a href="https://trio.readthedocs.io/">Trio</a> con una caché activa.</i>
+  <i>Instalación de las dependencias de <a href="https://trio.readthedocs.io/">Trio</a> con una caché precalentada.</i>
 </p>
 
 ## Puntos destacados
@@ -26,13 +26,13 @@ Un gestor de proyectos y paquetes de Python extremadamente rápido, escrito en R
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` y
   más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
-- Proporciona una [gestión integral de proyectos](#projects), con un
+- Proporciona una [gestión integral de proyectos](#proyectos), con un
   [archivo de bloqueo universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con compatibilidad para
   [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
-- [Instala y gestiona](#python-versions) versiones de Python.
-- [Ejecuta e instala](#tools) herramientas publicadas como paquetes de Python.
-- Incluye una [interfaz compatible con pip](#the-pip-interface) para obtener una mejora de rendimiento con una
+- [Instala y gestiona](#versiones-de-python) versiones de Python.
+- [Ejecuta e instala](#herramientas) herramientas publicadas como paquetes de Python.
+- Incluye una [interfaz compatible con pip](#la-interfaz-de-pip) para obtener una mejora de rendimiento con una
   CLI familiar.
 - Admite [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) de estilo Cargo para
   proyectos escalables.
@@ -227,7 +227,7 @@ comenzar.
 
 ### La interfaz de pip
 
-uv proporciona un reemplazo inmediato para comandos habituales de `pip`, `pip-tools` y `virtualenv`.
+uv proporciona un reemplazo directo para comandos habituales de `pip`, `pip-tools` y `virtualenv`.
 
 uv amplía sus interfaces con funciones avanzadas, como anulaciones de versiones de dependencias,
 resoluciones independientes de la plataforma, resoluciones reproducibles, estrategias de resolución alternativas y
@@ -270,7 +270,7 @@ Consulte la [documentación de la interfaz de pip](https://docs.astral.sh/uv/pip
 
 ## Contribuciones
 
-Existe una gran motivación por respaldar a personas colaboradoras con todos los niveles de experiencia y sería excelente ver
+Existe un fuerte compromiso con el apoyo a personas colaboradoras de todos los niveles de experiencia y sería excelente ver
 su participación en el proyecto. Consulte la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
@@ -295,13 +295,13 @@ Sí, uv es estable y se usa ampliamente en producción. Consulte el documento de
 
 ## Agradecimientos
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe gratitud hacia
-las personas mantenedoras de PubGrub, especialmente [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Astral agradece a
+las personas mantenedoras de PubGrub, especialmente [Jacob Finkelman](https://github.com/Eh2406), su apoyo.
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
 Algunas optimizaciones de uv se inspiran en el gran trabajo presente en [pnpm](https://pnpm.io/),
-[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También hubo mucho aprendizaje a partir de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su
+[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También surgió mucho aprendizaje a partir de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith, y uv adaptó su
 [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
 para la compatibilidad con Windows.
 
