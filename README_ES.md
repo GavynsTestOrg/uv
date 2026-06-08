@@ -270,7 +270,7 @@ Consulta la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 
 ## Contribuir
 
-Existe pasión por apoyar a personas colaboradoras con todos los niveles de experiencia y sería excelente ver más participación en el proyecto. Consulta la
+El proyecto apoya con entusiasmo a personas colaboradoras con todos los niveles de experiencia y sería excelente ver más participación. Consulta la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## FAQ
@@ -305,13 +305,13 @@ para el soporte en Windows.
 
 ## Licencia
 
-uv está disponible bajo cualquiera de las siguientes licencias:
+uv ofrece cualquiera de las siguientes licencias:
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) o
   <https://www.apache.org/licenses/LICENSE-2.0>)
 - licencia MIT ([LICENSE-MIT](LICENSE-MIT) o <https://opensource.org/licenses/MIT>)
 
-según elección del usuario.
+a elección del usuario.
 
 A menos que se indique explícitamente lo contrario, cualquier contribución enviada intencionalmente para su inclusión en uv,
 según se define en la licencia Apache-2.0, tendrá licencia dual como se indicó antes, sin
