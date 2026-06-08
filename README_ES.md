@@ -32,10 +32,10 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Incluye una [interfaz compatible con pip](#the-pip-interface) para obtener un aumento de rendimiento con una CLI familiar.
 - Compatible con [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para proyectos escalables.
 - Eficiente en espacio de disco, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para la deduplicación de dependencias.
-- Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
+- Instale uv sin Rust ni Python mediante `curl` o `pip`.
 - Compatible con macOS, Linux y Windows.
 
-uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty).
+[Astral](https://astral.sh), creadora de [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty), respalda uv.
 
 ## Instalación
 
@@ -256,7 +256,7 @@ Consulte la [documentación de la interfaz de pip](https://docs.astral.sh/uv/pip
 
 ## Cómo contribuir
 
-Existe un fuerte compromiso con el apoyo a quienes contribuyen en todos los niveles de experiencia y sería excelente ver más participación en el proyecto. Consulte la [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
+Se valora a quienes contribuyen en todos los niveles de experiencia y se agradece una mayor participación en el proyecto. Consulte la [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## Preguntas frecuentes
 
@@ -278,7 +278,7 @@ Sí, uv es estable y se utiliza ampliamente en producción. Consulte el document
 
 ## Agradecimientos
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe agradecimiento hacia los mantenedores de PubGrub, en especial hacia [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece el apoyo de los mantenedores de PubGrub, en especial de [Jacob Finkelman](https://github.com/Eh2406).
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
