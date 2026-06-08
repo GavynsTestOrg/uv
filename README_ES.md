@@ -277,7 +277,7 @@ participación. Consulte la
 
 #### ¿Cómo se pronuncia uv?
 
-Se pronuncia como "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
+La pronunciación de uv es "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
 
 #### ¿Cómo debería escribirse uv?
 
@@ -316,8 +316,8 @@ uv se distribuye bajo cualquiera de las siguientes licencias:
 
 a elección de cada persona.
 
-A menos que se indique explícitamente lo contrario, cualquier contribución enviada intencionalmente para su inclusión en uv,
-según se define en la licencia Apache-2.0, tendrá doble licencia como se indicó arriba, sin
+A menos que una declaración explícita indique lo contrario, cualquier contribución enviada intencionalmente para su inclusión en uv,
+con la definición de la licencia Apache-2.0, tendrá doble licencia como se indicó arriba, sin
 términos ni condiciones adicionales.
 
 <div align="center">
