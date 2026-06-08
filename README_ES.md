@@ -13,7 +13,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
   <picture align="center">
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/astral-sh/uv/assets/1309177/03aa9163-1c79-4a87-a31d-7a9311ed9310">
     <source media="(prefers-color-scheme: light)" srcset="https://github.com/astral-sh/uv/assets/1309177/629e59c0-9c6e-4013-9ad4-adb2bcf5080d">
-    <img alt="Shows a bar chart with benchmark results." src="https://github.com/astral-sh/uv/assets/1309177/629e59c0-9c6e-4013-9ad4-adb2bcf5080d">
+    <img alt="Muestra un gráfico de barras con resultados de referencia." src="https://github.com/astral-sh/uv/assets/1309177/629e59c0-9c6e-4013-9ad4-adb2bcf5080d">
   </picture>
 </p>
 
@@ -25,12 +25,12 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, y más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
-- Ofrece [gestión integral de proyectos](#proyectos), con un archivo de bloqueo [universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
+- Ofrece [gestión integral de proyectos](#proyectos), con un [archivo de bloqueo universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con soporte para [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
 - [Instala y administra](#versiones-de-python) versiones de Python.
 - [Ejecuta e instala](#herramientas) herramientas publicadas como paquetes de Python.
 - Incluye una [interfaz compatible con pip](#la-interfaz-de-pip) para obtener una mejora de rendimiento con una CLI familiar.
-- Soporta [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para proyectos escalables.
+- Soporta [espacios de trabajo](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para proyectos escalables.
 - Eficiente en espacio de disco, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para la deduplicación de dependencias.
 - Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
 - Soporta macOS, Linux y Windows.
@@ -81,7 +81,7 @@ Además, la documentación de referencia de la línea de comandos se puede ver c
 
 ### Proyectos
 
-uv administra las dependencias y los entornos de los proyectos, con soporte para lockfiles, workspaces y más, de forma similar a `rye` o `poetry`:
+uv administra las dependencias y los entornos de los proyectos, con soporte para archivos de bloqueo, espacios de trabajo y más, de forma similar a `rye` o `poetry`:
 
 ```console
 $ uv init example
