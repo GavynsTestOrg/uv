@@ -218,7 +218,7 @@ Per iniziare, vedere la [documentazione sull'installazione di Python](https://do
 
 uv fornisce un sostituto diretto dei comuni comandi `pip`, `pip-tools` e `virtualenv`.
 
-uv estende le relative interfacce con funzionalità avanzate, come sostituzioni delle versioni delle dipendenze, risoluzioni indipendenti dalla piattaforma, risoluzioni riproducibili, strategie di risoluzione alternative e altro.
+uv estende le relative interfacce con funzionalità avanzate, come la possibilità di sostituire le versioni delle dipendenze, risoluzioni indipendenti dalla piattaforma, risoluzioni riproducibili, strategie di risoluzione alternative e altro.
 
 Migra a uv senza cambiare i flussi di lavoro esistenti e sperimenta un'accelerazione di 10-100x con l'interfaccia `uv pip`.
 
@@ -278,7 +278,7 @@ Sì, uv è stabile ed è ampiamente usato in produzione. Per dettagli, vedere il
 
 ## Acknowledgements
 
-Il risolutore delle dipendenze di uv usa internamente [PubGrub](https://github.com/pubgrub-rs/pubgrub). Grande riconoscenza va ai responsabili di PubGrub, in particolare a [Jacob Finkelman](https://github.com/Eh2406), per il supporto.
+Il sistema di risoluzione delle dipendenze di uv usa internamente [PubGrub](https://github.com/pubgrub-rs/pubgrub). Grande riconoscenza va ai responsabili di PubGrub, in particolare a [Jacob Finkelman](https://github.com/Eh2406), per il supporto.
 
 L'implementazione Git di uv si basa su [Cargo](https://github.com/rust-lang/cargo).
 
