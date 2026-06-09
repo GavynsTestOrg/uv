@@ -299,7 +299,7 @@ El resolvedor de dependencias de uv utiliza [PubGrub](https://github.com/pubgrub
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
 Algunas de las optimizaciones de uv se inspiran en el excelente trabajo presente en [pnpm](https://pnpm.io/),
-[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También hubo mucho aprendizaje a partir de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su
+[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También aprendimos mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y adaptamos su
 [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
 para la compatibilidad con Windows.
 
