@@ -25,11 +25,11 @@ Un gestore di pacchetti e progetti Python estremamente veloce, scritto in Rust.
 
 - Un singolo strumento per sostituire `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` e altro.
 - [10-100x più veloce](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) di `pip`.
-- Offre una [gestione completa dei progetti](#projects), con un [lockfile universale](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
-- [Esegue script](#scripts), con supporto per [metadati inline delle dipendenze](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
-- [Installa e gestisce](#python-versions) versioni di Python.
-- [Esegue e installa](#tools) strumenti pubblicati come pacchetti Python.
-- Include un'[interfaccia compatibile con pip](#the-pip-interface) per un aumento delle prestazioni con una CLI familiare.
+- Offre una [gestione completa dei progetti](#progetti), con un [lockfile universale](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
+- [Esegue script](#script), con supporto per [metadati inline delle dipendenze](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
+- [Installa e gestisce](#versioni-di-python) versioni di Python.
+- [Esegue e installa](#strumenti) strumenti pubblicati come pacchetti Python.
+- Include un'[interfaccia compatibile con pip](#linterfaccia-pip) per un aumento delle prestazioni con una CLI familiare.
 - Supporta [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) in stile Cargo per progetti scalabili.
 - Efficiente nello spazio su disco, con una [cache globale](https://docs.astral.sh/uv/concepts/cache) per la deduplicazione delle dipendenze.
 - Installabile senza Rust o Python tramite `curl` o `pip`.
