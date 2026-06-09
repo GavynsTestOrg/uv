@@ -63,7 +63,7 @@ pip install uv
 pipx install uv
 ```
 
-Si se instala mediante el instalador independiente, uv puede actualizarse a la versión más reciente:
+Si la instalación usa el instalador independiente, uv puede actualizarse a la versión más reciente:
 
 ```bash
 uv self update
@@ -75,7 +75,7 @@ Consulte la [documentación de instalación](https://docs.astral.sh/uv/getting-s
 
 La documentación de uv está disponible en [docs.astral.sh/uv](https://docs.astral.sh/uv).
 
-Además, la documentación de referencia de la línea de comandos se puede consultar con `uv help`.
+Además, `uv help` muestra la documentación de referencia de la línea de comandos.
 
 ## Características
 
@@ -216,9 +216,9 @@ Consulte la [documentación de instalación de Python](https://docs.astral.sh/uv
 
 ### La interfaz de pip
 
-uv proporciona un reemplazo inmediato para los comandos comunes de `pip`, `pip-tools` y `virtualenv`.
+uv ofrece un reemplazo inmediato para los comandos comunes de `pip`, `pip-tools` y `virtualenv`.
 
-uv amplía sus interfaces con funciones avanzadas, como sustituciones de versiones de dependencias, resoluciones independientes de la plataforma, resoluciones reproducibles, estrategias de resolución alternativas y más.
+uv amplía sus interfaces con funciones avanzadas, como reemplazos de versiones de dependencias, resoluciones independientes de la plataforma, resoluciones reproducibles, estrategias de resolución alternativas y más.
 
 Migre a uv sin cambiar los flujos de trabajo actuales y obtenga una aceleración de 10-100x con la interfaz `uv pip`.
 
@@ -278,15 +278,15 @@ Sí, uv es estable y se usa ampliamente en producción. Consulte el documento de
 
 ## Agradecimientos
 
-El resolvedor de dependencias de uv utiliza [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe un agradecimiento a quienes mantienen PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
+El resolvedor de dependencias de uv utiliza [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece a quienes mantienen PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
-Algunas optimizaciones de uv se inspiran en el gran trabajo visto en [pnpm](https://pnpm.io/), [Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También se aprendió mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline) para el soporte de Windows.
+Algunas optimizaciones de uv se inspiran en el gran trabajo visto en [pnpm](https://pnpm.io/), [Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). uv también aprendió mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y adaptó su [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline) para el soporte de Windows.
 
 ## Licencia
 
-uv se distribuye bajo una de estas licencias:
+uv tiene licencia bajo una de estas opciones:
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) o
   <https://www.apache.org/licenses/LICENSE-2.0>)
