@@ -275,7 +275,6 @@ Existe una gran dedicación a apoyar a colaboradores de todos los niveles de exp
 
 ## FAQ
 
-#### How do you pronounce uv?
 #### ¿Cómo se pronuncia uv?
 
 Se pronuncia como "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
