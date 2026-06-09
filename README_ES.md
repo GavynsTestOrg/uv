@@ -270,7 +270,7 @@ Consulte la [documentación de la interfaz de pip](https://docs.astral.sh/uv/pip
 
 ## Contribuir
 
-Existe una gran motivación por respaldar a colaboradores con todos los niveles de experiencia y sería excelente ver
+Existe un fuerte compromiso con el apoyo a colaboradores de todos los niveles de experiencia y resultará excelente ver
 más participación en el proyecto. Consulte la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
@@ -296,14 +296,14 @@ Sí, uv es estable y se usa ampliamente en producción. Consulte el documento de
 ## Agradecimientos
 
 El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe un gran
-agradecimiento a los mantenedores de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por
-su apoyo.
+agradecimiento a los mantenedores de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por el
+apoyo brindado.
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
-Algunas optimizaciones de uv se inspiran en el gran trabajo visto en [pnpm](https://pnpm.io/),
-[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También se aprendió mucho de
-[Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su
+Algunas optimizaciones de uv se inspiran en el gran trabajo realizado en [pnpm](https://pnpm.io/),
+[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También aporta mucho
+[Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith, y uv adapta su
 [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
 para compatibilidad con Windows.
 
