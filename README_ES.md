@@ -25,17 +25,17 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido escrito en Ru
 
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` y más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
-- Proporciona una [gestión integral de proyectos](#projects), con un [lockfile universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
+- Proporciona una [gestión integral de proyectos](#proyectos), con un [lockfile universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con soporte para [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
-- [Instala y gestiona](#python-versions) versiones de Python.
-- [Ejecuta e instala](#tools) herramientas publicadas como paquetes de Python.
-- Incluye una [interfaz compatible con pip](#the-pip-interface) para obtener una mejora de rendimiento con una CLI familiar.
+- [Instala y gestiona](#versiones-de-python) versiones de Python.
+- [Ejecuta e instala](#herramientas) herramientas publicadas como paquetes de Python.
+- Incluye una [interfaz compatible con pip](#la-interfaz-de-pip) para obtener una mejora de rendimiento con una CLI familiar.
 - Admite [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para proyectos escalables.
 - Uso eficiente del espacio en disco, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para la deduplicación de dependencias.
 - Permite la instalación sin Rust ni Python mediante `curl` o `pip`.
 - Es compatible con macOS, Linux y Windows.
 
- [Astral](https://astral.sh), los creadores de [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty), respaldan uv.
+[Astral](https://astral.sh), los creadores de [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty), respaldan uv.
 
 ## Instalación
 
@@ -256,7 +256,7 @@ Consulte la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 
 ## Contribuir
 
-Existe un fuerte compromiso con el apoyo a quienes contribuyen en todos los niveles de experiencia y será excelente contar con participación en el proyecto. Consulte la [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
+Existe un fuerte compromiso con el apoyo a quienes contribuyen en todos los niveles de experiencia y es un placer contar con participación en el proyecto. Consulte la [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## FAQ
 
@@ -286,14 +286,14 @@ Algunas de las optimizaciones de uv están inspiradas en el gran trabajo visto e
 
 ## Licencia
 
-uv está disponible bajo una de las siguientes licencias:
+uv se ofrece bajo una de las siguientes licencias:
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) o <https://www.apache.org/licenses/LICENSE-2.0>)
 - MIT license ([LICENSE-MIT](LICENSE-MIT) o <https://opensource.org/licenses/MIT>)
 
 a elección de cada persona.
 
-A menos que se indique explícitamente lo contrario, cualquier contribución enviada intencionalmente para su inclusión en uv, según se define en la licencia Apache-2.0, tendrá doble licencia como se indicó anteriormente, sin términos ni condiciones adicionales.
+A menos que una contribución indique explícitamente lo contrario, cualquier contribución enviada intencionalmente para su inclusión en uv, según se define en la licencia Apache-2.0, tendrá doble licencia como se indicó anteriormente, sin términos ni condiciones adicionales.
 
 <div align="center">
   <a target="_blank" href="https://astral.sh" style="background:none">
