@@ -32,7 +32,6 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Incluye una [interfaz compatible con pip](#the-pip-interface) para obtener una mejora de rendimiento con una CLI familiar.
 - Admite [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para proyectos escalables.
 - Usa el espacio en disco de forma eficiente, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para la deduplicación de dependencias.
-- Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
 - Permite la instalación sin Rust ni Python mediante `curl` o `pip`.
 - Admite macOS, Linux y Windows.
 
