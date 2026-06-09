@@ -77,7 +77,7 @@ La documentación de uv está disponible en [docs.astral.sh/uv](https://docs.ast
 
 Además, la documentación de referencia de la línea de comandos se puede consultar con `uv help`.
 
-## Funcionalidades
+## Características
 
 ### Proyectos
 
@@ -214,7 +214,7 @@ Pinned `.python-version` to `3.11`
 
 Consulte la [documentación de instalación de Python](https://docs.astral.sh/uv/guides/install-python/) para comenzar.
 
-### La interfaz pip
+### La interfaz de pip
 
 uv proporciona un reemplazo inmediato para los comandos comunes de `pip`, `pip-tools` y `virtualenv`.
 
