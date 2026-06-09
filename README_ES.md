@@ -26,13 +26,14 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` y más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
 - Ofrece [gestión integral de proyectos](#projects), con un [archivo de bloqueo universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
+- Ofrece [gestión integral de proyectos](#projects), con un [lockfile universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con soporte para [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
 - [Instala y administra](#python-versions) versiones de Python.
 - [Ejecuta e instala](#tools) herramientas publicadas como paquetes de Python.
 - Incluye una [interfaz compatible con pip](#the-pip-interface) para obtener una mejora de rendimiento con una CLI familiar.
 - Admite [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para proyectos escalables.
 - Uso eficiente del espacio en disco, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para la deduplicación de dependencias.
-- Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
+- Se instala sin Rust ni Python mediante `curl` o `pip`.
 - Es compatible con macOS, Linux y Windows.
 
 uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty).
@@ -75,7 +76,7 @@ Consulte la [documentación de instalación](https://docs.astral.sh/uv/getting-s
 
 La documentación de uv está disponible en [docs.astral.sh/uv](https://docs.astral.sh/uv).
 
-Además, la documentación de referencia de la línea de comandos se puede consultar con `uv help`.
+Además, `uv help` muestra la documentación de referencia de la línea de comandos.
 
 ## Features
 
@@ -141,7 +142,7 @@ Consulte la [documentación de scripts](https://docs.astral.sh/uv/guides/scripts
 
 uv ejecuta e instala herramientas de línea de comandos proporcionadas por paquetes de Python, de forma similar a `pipx`.
 
-Ejecute una herramienta en un entorno efímero con `uvx` (un alias de `uv tool run`):
+Ejecute una herramienta en un entorno temporal con `uvx` (un alias de `uv tool run`):
 
 ```console
 $ uvx pycowsay 'hello world!'
@@ -218,7 +219,7 @@ Consulte la [documentación de instalación de Python](https://docs.astral.sh/uv
 
 uv ofrece un reemplazo directo para comandos habituales de `pip`, `pip-tools` y `virtualenv`.
 
-uv amplía sus interfaces con funciones avanzadas, como anulaciones de versión de dependencias, resoluciones independientes de la plataforma, resoluciones reproducibles, estrategias de resolución alternativas y más.
+uv amplía sus interfaces con funciones avanzadas, como reemplazos de versiones de dependencias, resoluciones independientes de la plataforma, resoluciones reproducibles, estrategias de resolución alternativas y más.
 
 Migre a uv sin cambiar los flujos de trabajo existentes y experimente una aceleración de 10-100x con la interfaz `uv pip`.
 
@@ -256,7 +257,7 @@ Consulte la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 
 ## Contributing
 
-Existe una gran dedicación a respaldar a personas colaboradoras con todos los niveles de experiencia y sería excelente ver una participación en el proyecto. Consulte la [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
+El proyecto apoya a personas colaboradoras con todos los niveles de experiencia y recibe con gusto nuevas contribuciones. Consulte la [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## FAQ
 
@@ -278,11 +279,11 @@ Sí, uv es estable y se usa ampliamente en producción. Consulte el documento de
 
 ## Acknowledgements
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe agradecimiento hacia quienes mantienen PubGrub, en especial [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece el apoyo de quienes mantienen PubGrub, en especial [Jacob Finkelman](https://github.com/Eh2406).
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
-Algunas optimizaciones de uv se inspiran en el gran trabajo realizado en [pnpm](https://pnpm.io/), [Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También se aprendió mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline) para el soporte en Windows.
+Algunas optimizaciones de uv se inspiran en el gran trabajo de [pnpm](https://pnpm.io/), [Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). uv también aprendió mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y adaptó su [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline) para el soporte en Windows.
 
 ## License
 
