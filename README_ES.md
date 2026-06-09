@@ -21,7 +21,7 @@ Un gestor de proyectos y paquetes de Python extremadamente rápido, escrito en R
   <i>Instalación de las dependencias de <a href="https://trio.readthedocs.io/">Trio</a> con una caché activa.</i>
 </p>
 
-## Highlights
+## Aspectos destacados
 
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` y
   más.
@@ -38,7 +38,7 @@ Un gestor de proyectos y paquetes de Python extremadamente rápido, escrito en R
   proyectos escalables.
 - Eficiente en el uso del espacio en disco, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para
   deduplicar dependencias.
-- Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
+- Instalable sin Rust ni Python mediante `curl` o `pip`.
 - Compatible con macOS, Linux y Windows.
 
 uv cuenta con el respaldo de [Astral](https://astral.sh), los creadores de
@@ -79,13 +79,13 @@ uv self update
 Consulte la [documentación de instalación](https://docs.astral.sh/uv/getting-started/installation/) para ver
 detalles y métodos de instalación alternativos.
 
-## Documentation
+## Documentación
 
-La documentación de uv está en [docs.astral.sh/uv](https://docs.astral.sh/uv).
+La documentación de uv está disponible en [docs.astral.sh/uv](https://docs.astral.sh/uv).
 
 Además, `uv help` muestra la documentación de referencia de la línea de comandos.
 
-## Features
+## Características
 
 ### Projects
 
@@ -165,7 +165,7 @@ Installed 1 package in 9ms
   ------------
    \   ^__^
     \  (oo)\_______
-       (__)\       )\/\\
+       (__)\       )\/\
            ||----w |
            ||     ||
 ```
@@ -268,26 +268,27 @@ Installed 43 packages in 208ms
 
 Consulte la [documentación de la interfaz de pip](https://docs.astral.sh/uv/pip/index/) para comenzar.
 
-## Contributing
+## Contribuir
 
-Existe un gran interés en apoyar a colaboradores de todos los niveles de experiencia y será excelente ver participación en el proyecto. Consulte la
+Existe una gran dedicación a apoyar a colaboradores de todos los niveles de experiencia y sería excelente ver más participación en el proyecto. Consulte la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## FAQ
 
 #### How do you pronounce uv?
+#### ¿Cómo se pronuncia uv?
 
 Se pronuncia como "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
 
-#### How should I stylize uv?
+#### ¿Cómo debe escribirse uv?
 
 Solo "uv", por favor. Consulte la [guía de estilo](./STYLE.md#styling-uv) para obtener detalles.
 
-#### What platforms does uv support?
+#### ¿Qué plataformas admite uv?
 
 Consulte el documento de [compatibilidad de plataformas](https://docs.astral.sh/uv/reference/platforms/) de uv.
 
-#### Is uv ready for production?
+#### ¿Está uv listo para producción?
 
 Sí, uv es estable y se usa ampliamente en producción. Consulte el documento sobre la
 [política de versiones](https://docs.astral.sh/uv/reference/versioning/) de uv para obtener detalles.
