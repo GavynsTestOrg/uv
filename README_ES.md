@@ -16,6 +16,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
     <img alt="Shows a bar chart with benchmark results." src="https://github.com/astral-sh/uv/assets/1309177/629e59c0-9c6e-4013-9ad4-adb2bcf5080d">
   </picture>
 </p>
+ 
 
 <p align="center">
   <i>Instalación de las dependencias de <a href="https://trio.readthedocs.io/">Trio</a> con una caché caliente.</i>
