@@ -41,7 +41,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Se puede instalar sin Rust ni Python mediante `curl` o `pip`.
 - Soporta macOS, Linux y Windows.
 
- [Astral](https://astral.sh) respalda uv y creó
+[Astral](https://astral.sh) respalda uv y creó
 [Ruff](https://github.com/astral-sh/ruff) y [ty](https://github.com/astral-sh/ty).
 
 ## Instalación
@@ -294,20 +294,19 @@ Sí, uv es estable y se usa ampliamente en producción. Consulta el documento de
 
 ## Agradecimientos
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe un gran
-agradecimiento hacia las personas mantenedoras de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por
-su apoyo.
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece a las
+personas mantenedoras de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), su apoyo.
 
-La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
+uv basa su implementación de Git en [Cargo](https://github.com/rust-lang/cargo).
 
-Algunas de las optimizaciones de uv se inspiran en el gran trabajo visto en [pnpm](https://pnpm.io/),
-[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También se ha aprendido mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su
+Algunas de las optimizaciones de uv se inspiran en el gran trabajo de [pnpm](https://pnpm.io/),
+[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). uv también aprendió mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y adaptó su
 [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
-para el soporte de Windows.
+para ofrecer soporte para Windows.
 
 ## Licencia
 
-uv se licencia bajo una de estas opciones
+uv ofrece estas opciones de licencia
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) o
   <https://www.apache.org/licenses/LICENSE-2.0>)
