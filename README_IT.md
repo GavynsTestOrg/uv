@@ -39,7 +39,7 @@ uv è supportato da [Astral](https://astral.sh), i creatori di [Ruff](https://gi
 
 ## Installazione
 
-Installa uv con i programmi di installazione standalone:
+Installa uv con i programmi di installazione autonomi:
 
 ```bash
 # On macOS and Linux.
