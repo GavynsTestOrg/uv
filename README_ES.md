@@ -29,7 +29,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - [Ejecuta scripts](#scripts), con soporte para [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
 - [Instala y administra](#versiones-de-python) versiones de Python.
 - [Ejecuta e instala](#herramientas) herramientas publicadas como paquetes de Python.
-- Incluye una [interfaz compatible con pip](#la-interfaz-de-pip) para obtener una mejora de rendimiento con una CLI familiar.
+- Incluye una [interfaz compatible con pip](#la-interfaz-de-pip) para obtener una mejora de rendimiento con una línea de comandos familiar.
 - Admite [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para proyectos escalables.
 - Uso eficiente del espacio en disco, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para la deduplicación de dependencias.
 - Se instala sin Rust ni Python mediante `curl` o `pip`.
