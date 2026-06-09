@@ -29,7 +29,7 @@ Un gestore di pacchetti e progetti Python estremamente veloce, scritto in Rust.
 - [Esegue script](#script), con supporto per [metadati inline delle dipendenze](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
 - [Installa e gestisce](#versioni-di-python) versioni di Python.
 - [Esegue e installa](#strumenti) strumenti pubblicati come pacchetti Python.
-- Include un'[interfaccia compatibile con pip](#linterfaccia-pip-1) per un aumento delle prestazioni con una CLI familiare.
+- Include un'[interfaccia compatibile con pip](#linterfaccia-pip) per un aumento delle prestazioni con una CLI familiare.
 - Supporta [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) in stile Cargo per progetti scalabili.
 - Efficiente nello spazio su disco, con una [cache globale](https://docs.astral.sh/uv/concepts/cache) per la deduplicazione delle dipendenze.
 - Installabile senza Rust o Python tramite `curl` o `pip`.
