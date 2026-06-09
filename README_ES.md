@@ -25,8 +25,7 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` y más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
-- Ofrece [gestión integral de proyectos](#projects), con un [archivo de bloqueo universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
-- Ofrece [gestión integral de proyectos](#projects), con un [lockfile universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
+- Ofrece [gestión integral de proyectos](#projects), con un [archivo de bloqueo compartido](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con soporte para [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
 - [Instala y administra](#python-versions) versiones de Python.
 - [Ejecuta e instala](#tools) herramientas publicadas como paquetes de Python.
@@ -64,7 +63,7 @@ pip install uv
 pipx install uv
 ```
 
-Si se instala mediante el instalador independiente, uv puede actualizarse a sí mismo a la versión más reciente:
+El instalador independiente permite que uv se actualice a la versión más reciente:
 
 ```bash
 uv self update
