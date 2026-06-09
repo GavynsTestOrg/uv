@@ -26,14 +26,14 @@ Un gestor de paquetes y proyectos de Python extremadamente rápido, escrito en R
 - Una sola herramienta para reemplazar `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv` y
   más.
 - [10-100x más rápido](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) que `pip`.
-- Proporciona [gestión integral de proyectos](#projects), con un
+- Proporciona [gestión integral de proyectos](#proyectos), con un
   [lockfile universal](https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile).
 - [Ejecuta scripts](#scripts), con compatibilidad para
   [metadatos de dependencias en línea](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
-- [Instala y administra](#python-versions) versiones de Python.
-- [Ejecuta e instala](#tools) herramientas publicadas como paquetes de Python.
-- Incluye una [interfaz compatible con pip](#the-pip-interface) para obtener un aumento de rendimiento con una
-  CLI conocida.
+- [Instala y administra](#versiones-de-python) versiones de Python.
+- [Ejecuta e instala](#herramientas) herramientas publicadas como paquetes de Python.
+- Incluye una [interfaz compatible con pip](#la-interfaz-de-pip) para obtener un aumento de rendimiento con una
+  interfaz de línea de comandos conocida.
 - Admite [workspaces](https://docs.astral.sh/uv/concepts/projects/workspaces) al estilo de Cargo para
   proyectos escalables.
 - Usa el espacio en disco de forma eficiente, con una [caché global](https://docs.astral.sh/uv/concepts/cache) para
@@ -278,7 +278,7 @@ más participación en el proyecto. Consulte la
 
 #### ¿Cómo se pronuncia uv?
 
-Se pronuncia como "you - vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
+Se pronuncia como "you vee" ([`/juː viː/`](https://en.wikipedia.org/wiki/Help:IPA/English#Key))
 
 #### ¿Cómo se debe escribir uv?
 
