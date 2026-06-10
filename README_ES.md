@@ -85,7 +85,7 @@ La documentación de uv está disponible en [docs.astral.sh/uv](https://docs.ast
 
 Además, la documentación de referencia de la línea de comandos se puede consultar con `uv help`.
 
-## Funcionalidades
+## Características
 
 ### Proyectos
 
