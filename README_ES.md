@@ -270,10 +270,10 @@ Consulte la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 
 ## Contribuir
 
-Existe una gran dedicación a apoyar a colaboradores de todos los niveles de experiencia y se valora su participación en el proyecto. Consulte la
+El proyecto apoya a colaboradores de todos los niveles de experiencia y valora su participación. Consulte la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
-## FAQ
+## Preguntas frecuentes
 
 #### ¿Cómo se pronuncia uv?
 
