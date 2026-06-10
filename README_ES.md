@@ -70,7 +70,7 @@ pip install uv
 pipx install uv
 ```
 
-Cuando el instalador independiente instala uv, el comando puede actualizarse a la versión más reciente:
+Si el instalador independiente instala uv, uv puede actualizarse a la versión más reciente:
 
 ```bash
 uv self update
