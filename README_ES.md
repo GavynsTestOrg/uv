@@ -270,8 +270,8 @@ Consulte la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 
 ## Contributing
 
-Existe un fuerte compromiso con el apoyo a colaboradores de todos los niveles de experiencia y será excelente ver más
-participación en el proyecto. Consulte la
+El proyecto apoya a colaboradores de todos los niveles de experiencia y será excelente ver más participación en el
+proyecto. Consulte la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para comenzar.
 
 ## FAQ
