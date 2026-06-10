@@ -270,7 +270,7 @@ Consulte la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 
 ## Contributing
 
-Existe un fuerte compromiso con apoyar a personas colaboradoras con todos los niveles de experiencia y sería excelente ver más participación en el proyecto. Consulte la
+El proyecto apoya a personas colaboradoras con todos los niveles de experiencia y agradece su participación. Consulte la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para
 comenzar.
 
@@ -295,7 +295,7 @@ Sí, uv es estable y se usa ampliamente en producción. Consulte el documento de
 
 ## Acknowledgements
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe agradecimiento hacia las personas mantenedoras de PubGrub, en especial [Jacob Finkelman](https://github.com/Eh2406), por su apoyo.
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece el apoyo de las personas mantenedoras de PubGrub, en especial de [Jacob Finkelman](https://github.com/Eh2406).
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
