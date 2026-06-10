@@ -70,7 +70,7 @@ pip install uv
 pipx install uv
 ```
 
-Si se instala mediante el instalador independiente, uv puede actualizarse a la versión más reciente:
+Cuando el instalador independiente instala uv, el comando puede actualizarse a la versión más reciente:
 
 ```bash
 uv self update
@@ -269,8 +269,8 @@ Consulta la [documentación de la interfaz pip](https://docs.astral.sh/uv/pip/in
 
 ## Contribuir
 
-Existe una gran motivación por apoyar a contribuyentes de todos los niveles de experiencia y encantaría ver
-participación en el proyecto. Consulta la
+El proyecto apoya a contribuyentes de todos los niveles de experiencia y recibe con entusiasmo su
+participación. Consulta la
 [guía de contribución](https://github.com/astral-sh/uv?tab=contributing-ov-file#contributing) para empezar.
 
 ## Preguntas frecuentes
@@ -294,12 +294,12 @@ Sí, uv es estable y se usa ampliamente en producción. Consulta el documento de
 
 ## Agradecimientos
 
-El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. Existe un gran agradecimiento a los mantenedores de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por el apoyo.
+El resolvedor de dependencias de uv usa [PubGrub](https://github.com/pubgrub-rs/pubgrub) internamente. uv agradece a los mantenedores de PubGrub, en especial a [Jacob Finkelman](https://github.com/Eh2406), por el apoyo.
 
 La implementación de Git de uv se basa en [Cargo](https://github.com/rust-lang/cargo).
 
 Algunas optimizaciones de uv se inspiran en el gran trabajo visto en [pnpm](https://pnpm.io/),
-[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). También se aprendió mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y se adaptó su
+[Orogene](https://github.com/orogene/orogene) y [Bun](https://github.com/oven-sh/bun). uv también aprendió mucho de [Posy](https://github.com/njsmith/posy) de Nathaniel J. Smith y adaptó su
 [trampoline](https://github.com/njsmith/posy/tree/main/src/trampolines/windows-trampolines/posy-trampoline)
 para la compatibilidad con Windows.
 
