@@ -54,7 +54,7 @@ $ uv export --format requirements.txt --emit-index-url
 ```
 
 Use `--emit-find-links` to add `--find-links` directives to the exported output. This helps
-downstream installers resolve packages from the same package sources.
+downstream installers resolve packages from the same custom indexes or find-links sources.
 
 ```console
 $ uv export --format requirements.txt --emit-find-links
