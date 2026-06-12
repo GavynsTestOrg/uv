@@ -226,7 +226,7 @@ $ uv tool install mkdocs --with mkdocs-material
 ```
 
 When `uv tool install` targets an explicit local directory, reinstalling the tool rebuilds it so uv
-refreshes package details such as its version and console scripts. This applies to editable installs
+refreshes package details such as the version and console scripts. This applies to editable installs
 such as `uv tool install -e .` instead of restoring outdated cached details.
 
 Multiple related executables can be installed together in the same tool environment, using the
