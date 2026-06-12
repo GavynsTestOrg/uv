@@ -340,4 +340,4 @@ Other options can still add specific project setup to a bare project:
 $ uv init example-bare --bare --description "Hello world" --author-from git --vcs git --python-pin
 ```
 
-`--vcs git` adds version control files and directories, and `--python-pin` adds a Python version pin file.
+Here, `--vcs git` adds version control files and directories, and `--python-pin` adds a Python version pin file.
