@@ -225,10 +225,9 @@ As with `uvx`, installations can include additional packages:
 $ uv tool install mkdocs --with mkdocs-material
 ```
 
-When `uv tool install` targets an explicit local directory, reinstalling the tool rebuilds and
-reinstalls it so uv picks up updated dynamic metadata. This applies to editable installs such as
-`uv tool install -e .`, including changes to package versions and console scripts, instead of
-reusing stale cached metadata.
+When `uv tool install` targets an explicit local directory, reinstalling the tool rebuilds it so uv
+refreshes package details such as its version and console scripts. This applies to editable installs
+such as `uv tool install -e .` instead of restoring outdated cached details.
 
 Multiple related executables can be installed together in the same tool environment, using the
 `--with-executables-from` flag. For example, the following will install the executables from
