@@ -165,7 +165,7 @@ details.
 
 ### Controlling installation with environment variables
 
-`uv add` and `uv sync` support environment variables that match the install control flags:
+`uv add` and `uv sync` support environment variables that control what they install:
 
 - `UV_NO_INSTALL_PROJECT` matches `--no-install-project`. It skips installing the current
   project and still installs its dependencies.
