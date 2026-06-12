@@ -218,7 +218,7 @@ purpose.
   local path or editable packages
 - `--no-install-package <NO_INSTALL_PACKAGE>`: Do not install the given package(s)
 
-When these options omit a target, uv still installs all of that target's dependencies. For
+When any of these options omits a target, uv still installs all of that target's dependencies. For
 example, `--no-install-project` will omit the _project_ but not any of its dependencies.
 
 The matching environment variables `UV_NO_INSTALL_PROJECT=1`, `UV_NO_INSTALL_WORKSPACE=1`, and
