@@ -225,7 +225,7 @@ As with `uvx`, installations can include additional packages:
 $ uv tool install mkdocs --with mkdocs-material
 ```
 
-When `uv tool install` targets an explicit local directory, rerunning the same command rebuilds and reinstalls the tool instead of reusing older install metadata. This refresh picks up updated dynamic versions and executables, applies changes when switching between editable and non editable installs, and can also recreate the tool with a newly selected global Python interpreter.
+When `uv tool install` targets an explicit local directory, rerunning the same command rebuilds and reinstalls the tool instead of reusing older installed details. This refresh picks up updated dynamic versions and executables, applies changes when switching between editable and non editable installs, and can also recreate the tool after the selected global Python interpreter changes.
 
 Multiple related executables can be installed together in the same tool environment, using the
 `--with-executables-from` flag. For example, the following will install the executables from
