@@ -314,7 +314,8 @@ If you only want to create a `pyproject.toml`, use the `--bare` option:
 $ uv init example-bare --bare
 ```
 
-uv skips creating a Python version pin file, a README, version control files and directories, and any source directories or files.
+uv skips creating a Python version pin file, a README, version control files and
+directories, and any source directories or files.
 
 ```console
 $ tree example-bare
@@ -332,7 +333,9 @@ requires-python = ">=3.12"
 dependencies = []
 ```
 
-The `--bare` option can be used with options like `--lib` or `--build-backend`. In these cases, uv still configures a build system but does not create the usual file structure.
+The `--bare` option can be used with options like `--lib` or `--build-backend`.
+In these cases, uv still configures a build system but does not create the usual
+file structure.
 
 Other options can still add specific project setup to a bare project:
 
@@ -340,4 +343,5 @@ Other options can still add specific project setup to a bare project:
 $ uv init example-bare --bare --description "Hello world" --author-from git --vcs git --python-pin
 ```
 
-Here, `--vcs git` adds version control files and directories, and `--python-pin` adds a Python version pin file.
+Here, `--vcs git` adds version control files and directories, and
+`--python-pin` adds a Python version pin file.
