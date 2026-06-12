@@ -1,6 +1,6 @@
 # uv
 
-An extremely fast Python package and project manager, written in Rust.
+An extremely fast Python package manager.
 
 <p align="center">
   <img alt="Shows a bar chart with benchmark results." src="https://github.com/astral-sh/uv/assets/1309177/629e59c0-9c6e-4013-9ad4-adb2bcf5080d#only-light">
@@ -19,7 +19,7 @@ An extremely fast Python package and project manager, written in Rust.
 - A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and
   more.
 - [10-100x faster](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) than `pip`.
-- Provides [comprehensive project management](#projects), with a
+- Provides [project management](#projects), with a
   [universal lockfile](./concepts/projects/layout.md#the-lockfile).
 - [Runs scripts](#scripts), with support for
   [inline dependency metadata](./guides/scripts.md#declaring-script-dependencies).
