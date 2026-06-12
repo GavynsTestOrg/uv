@@ -162,7 +162,7 @@ command options:
   project and workspace members.
 
 If `--only-install-project`, `--only-install-workspace`, or `--only-install-local` is present on
-the command line, that option takes precedence over the corresponding `UV_NO_INSTALL_*` setting.
+the command line, that option overrides the corresponding `UV_NO_INSTALL_*` setting.
 
 To upgrade a package, run `uv lock` with the `--upgrade-package` flag:
 
@@ -273,7 +273,7 @@ executing a command:
   packages.
 
 If `--only-install-project`, `--only-install-workspace`, or `--only-install-local` is present on
-the command line, that option takes precedence over the corresponding `UV_NO_INSTALL_*` setting.
+the command line, that option overrides the corresponding `UV_NO_INSTALL_*` setting.
 
 !!! note
 
