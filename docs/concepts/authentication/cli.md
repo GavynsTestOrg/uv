@@ -1,6 +1,8 @@
 # The `uv auth` CLI
 
-uv provides a high-level interface for storing and retrieving credentials from services.
+uv provides a high-level interface for storing and retrieving HTTP credentials for package and artifact services.
+It uses those credentials for packaging operations that fetch content over HTTPS from the specified service.
+uv does not yet use stored credentials for Git requests.
 
 ## Logging in to a service
 
@@ -26,9 +28,12 @@ The credentials can also be provided using the `--username` and `--password` opt
 
     The same pattern can be used with `--token`.
 
-Once credentials are added, uv will use them for packaging operations that require fetching content
-from the given service. At this time, only HTTPS Basic authentication is supported. The credentials
-will not yet be used for Git requests.
+Once credentials are added, uv will use them for packaging operations that fetch content over HTTPS
+from the given service. At this time, only HTTPS Basic authentication is supported. uv does not yet
+use stored credentials for Git requests.
+
+See [HTTP credentials](./http.md) for details on credential precedence, storage backends, and
+authentication behavior for indexes, direct URLs, and other HTTP sources.
 
 !!! note
 
@@ -96,3 +101,6 @@ Credentials are persisted to the uv [credentials store](./http.md#the-uv-credent
 
 By default, credentials are written to a plaintext file. An encrypted system-native storage backend
 can be enabled with `UV_PREVIEW_FEATURES=native-auth`.
+
+See [HTTP credentials](./http.md) for more detail on storage behavior, credential precedence, and
+how uv uses stored credentials across HTTP authentication flows.
