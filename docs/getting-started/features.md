@@ -3,7 +3,7 @@
 uv provides essential features for Python development — from installing Python and running simple
 scripts to working on projects that support multiple Python versions and platforms.
 
-uv's interface is organized into sections, which work independently or together.
+uv organizes its interface into sections, which work independently or together.
 
 ## Python versions
 
