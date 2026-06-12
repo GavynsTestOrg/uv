@@ -206,9 +206,9 @@ Before each `uv run`, uv checks the project in this order:
 1. It verifies that `uv.lock` matches `pyproject.toml`.
 2. It verifies that `.venv` matches `uv.lock`.
 
-If either check shows that the project is out of date, uv updates the lockfile or project
-environment before running the command. `uv run` ensures that the command runs in the project
-environment with the required dependencies at their locked versions.
+If either check shows that the project needs an update, uv updates the lockfile or environment
+before running the command. `uv run` ensures that the command runs in the project environment with
+the required dependencies at their locked versions.
 
 !!! note
 
