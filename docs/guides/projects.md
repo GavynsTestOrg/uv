@@ -163,6 +163,21 @@ version, while keeping the rest of the lockfile intact.
 See the documentation on [managing dependencies](../concepts/projects/dependencies.md) for more
 details.
 
+### Controlling installation with environment variables
+
+`uv add` and `uv sync` support environment variables that match the install control flags:
+
+- `UV_NO_INSTALL_PROJECT` matches `--no-install-project`. It skips installing the current
+  project and still installs its dependencies.
+- `UV_NO_INSTALL_WORKSPACE` matches `--no-install-workspace`. It skips workspace members,
+  including the root project, and still installs workspace dependencies.
+- `UV_NO_INSTALL_LOCAL` matches `--no-install-local`. It skips local path and editable
+  packages, including the current project and workspace members, so only remote dependencies
+  are installed.
+
+The corresponding `--only-install-project`, `--only-install-workspace`, and
+`--only-install-local` flags take precedence over these environment variables.
+
 ## Viewing your version
 
 The `uv version` command can be used to read your package's version.
