@@ -11,7 +11,7 @@ Usage: uv [OPTIONS] <COMMAND>
 ...
 ```
 
-The output should show a help menu listing the available commands.
+The command should display a help menu listing the available commands.
 
 ## Next steps
 
