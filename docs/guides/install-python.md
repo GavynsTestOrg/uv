@@ -38,7 +38,7 @@ include the experimental `--default` option:
 $ uv python install --default
 ```
 
-If `uv python install --default` finds more than one existing `python` executable that uv does not manage, uv shows a single warning for all conflicts instead of repeating a similar warning for each executable. The warning can mention `python`, `python3`, and versioned executables such as `python3.x`. uv leaves the existing files in place unless `--force` replaces them.
+If `uv python install --default` finds more than one existing executable that uv does not manage, uv shows a single warning for all conflicts instead of repeating a similar warning for each executable. The warning can mention `python`, `python3`, and versioned executables such as `python3.x`. uv leaves the existing files in place unless `--force` replaces them.
 
 !!! tip
 
