@@ -19,7 +19,7 @@ An extremely fast Python package manager.
 - A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and
   more.
 - [10-100x faster](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) than `pip`.
-- Provides [project management](#projects), with a
+- Provides [project support](#projects), with a
   [universal lockfile](./concepts/projects/layout.md#the-lockfile).
 - [Runs scripts](#scripts), with support for
   [inline dependency metadata](./guides/scripts.md#declaring-script-dependencies).
