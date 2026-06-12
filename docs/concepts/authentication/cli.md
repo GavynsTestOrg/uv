@@ -28,9 +28,8 @@ The credentials can also be provided using the `--username` and `--password` opt
 
 Once credentials are added, uv will use them for packaging operations that fetch content over HTTPS
 from the specified package or artifact service. At this time, only HTTPS Basic authentication is
-supported. See the [HTTP
-credentials](./http.md) documentation for more on how uv finds and uses credentials. Stored
-credentials will not yet be used for Git requests.
+supported. See the [HTTP credentials](./http.md) documentation for more on how uv finds and uses
+credentials. Stored credentials will not yet be used for Git requests.
 
 !!! note
 
