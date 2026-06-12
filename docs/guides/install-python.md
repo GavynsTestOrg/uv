@@ -38,6 +38,8 @@ include the experimental `--default` option:
 $ uv python install --default
 ```
 
+If `uv python install --default` finds more than one existing unmanaged executable, uv shows a single warning for the full set of conflicts instead of repeating a similar warning for each executable. The warning can mention `python`, `python3`, and versioned executables such as `python3.x`. uv leaves the existing unmanaged files in place unless `--force` replaces them.
+
 !!! tip
 
     See the documentation on [installing Python executables](../concepts/python-versions.md#installing-python-executables)
