@@ -323,7 +323,8 @@ example-bare
 └── pyproject.toml
 ```
 
-uv will also not add extra metadata to the `pyproject.toml`, such as the `description` or `authors`.
+uv will also not add extra metadata to the `pyproject.toml`, such as the
+`description` or `authors`.
 
 ```toml
 [project]
