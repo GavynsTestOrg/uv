@@ -336,7 +336,7 @@ dependencies = []
 The `--bare` option can be used with other options like `--lib` or `--build-backend`. In these
 cases, uv still configures a build system but does not create the usual file structure.
 
-When `--bare` is used, other options can still add specific project setup:
+Other options can still add specific project setup to a bare project:
 
 ```console
 $ uv init example-bare --bare --description "Hello world" --author-from git --vcs git --python-pin
