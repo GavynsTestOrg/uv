@@ -221,7 +221,7 @@ while building a Docker image. `uv sync` has several flags for this purpose.
 When these options are used, all the dependencies of the target are still installed. For example,
 `--no-install-project` will omit the _project_ but not any of its dependencies.
 
-These environment variables matter when `uv` runs through wrappers or environments that do not make command line flags easy to pass through. If the matching hidden `--only-install-*` mode is used, it overrides the corresponding `UV_NO_INSTALL_*` setting instead of combining with it.
+These environment variables matter when `uv` runs through wrappers or environments where passing command line flags is inconvenient or unavailable. If the matching hidden `--only-install-*` mode is used, it overrides the corresponding `UV_NO_INSTALL_*` setting instead of combining with it.
 
 If used improperly, these flags can result in a broken environment since a package can be missing
 its dependencies.
