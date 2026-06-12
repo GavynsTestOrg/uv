@@ -128,10 +128,10 @@ $ uv add requests
 ```
 
 If a wrapper or automation cannot easily pass command line flags, set
-`UV_NO_INSTALL_PROJECT`, `UV_NO_INSTALL_WORKSPACE`, or `UV_NO_INSTALL_LOCAL` to apply the same
-behavior as `--no-install-project`, `--no-install-workspace`, or `--no-install-local` with
-`uv add`. Passing the corresponding `--only-install-*` flag on the command line takes precedence
-over the environment variable.
+`UV_NO_INSTALL_PROJECT`, `UV_NO_INSTALL_WORKSPACE`, or `UV_NO_INSTALL_LOCAL` instead of
+`--no-install-project`, `--no-install-workspace`, or `--no-install-local` with `uv add`.
+Passing the corresponding `--only-install-*` flag on the command line takes precedence over the
+environment variable.
 
 You can also specify version constraints or alternative sources:
 
@@ -240,10 +240,10 @@ Alternatively, you can use `uv sync` to manually update the environment then act
 executing a command:
 
 If a wrapper or automation cannot easily pass command line flags, set
-`UV_NO_INSTALL_PROJECT`, `UV_NO_INSTALL_WORKSPACE`, or `UV_NO_INSTALL_LOCAL` to apply the same
-behavior as `--no-install-project`, `--no-install-workspace`, or `--no-install-local` with
-`uv sync`. Passing the corresponding `--only-install-*` flag on the command line takes precedence
-over the environment variable.
+`UV_NO_INSTALL_PROJECT`, `UV_NO_INSTALL_WORKSPACE`, or `UV_NO_INSTALL_LOCAL` instead of
+`--no-install-project`, `--no-install-workspace`, or `--no-install-local` with `uv sync`.
+Passing the corresponding `--only-install-*` flag on the command line takes precedence over the
+environment variable.
 
 === "macOS and Linux"
 
