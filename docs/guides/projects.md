@@ -127,6 +127,12 @@ the lockfile and project environment:
 $ uv add requests
 ```
 
+If a wrapper or automation cannot pass command line flags easily, `uv add` also reads
+`UV_NO_INSTALL_PROJECT`, `UV_NO_INSTALL_WORKSPACE`, and `UV_NO_INSTALL_LOCAL` as equivalents to
+`--no-install-project`, `--no-install-workspace`, and `--no-install-local`. If the corresponding
+`--only-install-*` flag is provided on the command line, it takes precedence over the environment
+variable.
+
 You can also specify version constraints or alternative sources:
 
 ```console
@@ -232,6 +238,12 @@ $ uv run example.py
 
 Alternatively, you can use `uv sync` to manually update the environment then activate it before
 executing a command:
+
+If a wrapper or automation cannot pass command line flags easily, `uv sync` also reads
+`UV_NO_INSTALL_PROJECT`, `UV_NO_INSTALL_WORKSPACE`, and `UV_NO_INSTALL_LOCAL` as equivalents to
+`--no-install-project`, `--no-install-workspace`, and `--no-install-local`. If the corresponding
+`--only-install-*` flag is provided on the command line, it takes precedence over the environment
+variable.
 
 === "macOS and Linux"
 
