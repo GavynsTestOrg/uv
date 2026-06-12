@@ -213,7 +213,7 @@ while building a Docker image. `uv sync` has several flags for this purpose.
 
 - `--no-install-project` or `UV_NO_INSTALL_PROJECT`: Do not install the current project
 - `--no-install-workspace` or `UV_NO_INSTALL_WORKSPACE`: Do not install any workspace members, including the root project
-- `--no-install-package <NO_INSTALL_PACKAGE>`: Do not install the given package(s); use `UV_NO_INSTALL_LOCAL` to omit local packages instead
+- `--no-install-package <NO_INSTALL_PACKAGE>`: Do not install the given package(s); use `UV_NO_INSTALL_LOCAL` to omit local packages
 
 When these options are used, all the dependencies of the target are still installed. For example,
 `--no-install-project` will omit the _project_ but not any of its dependencies.
