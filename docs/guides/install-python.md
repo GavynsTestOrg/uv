@@ -38,7 +38,7 @@ include the experimental `--default` option:
 $ uv python install --default
 ```
 
-With `--default`, uv still installs the versioned executable. If one unmanaged executable already exists, uv reports that single executable. If multiple unmanaged executables already exist, such as `python`, `python3`, and `python3.x`, uv reports them together in a single warning or error and suggests using `--force` to replace them.
+If one unmanaged executable already exists, uv reports that single executable. If multiple unmanaged executables already exist, such as `python`, `python3`, and the versioned executable `python3.x`, uv reports them together in a single warning or error and suggests using `--force` to replace them.
 
 !!! tip
 
