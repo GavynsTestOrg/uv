@@ -209,14 +209,26 @@ use cases.
 ## Partial installations
 
 Sometimes it's helpful to perform installations in multiple steps, e.g., for optimal layer caching
-while building a Docker image. `uv sync` has several flags for this purpose.
+while building a Docker image. `uv sync` supports several partial installation controls for this
+purpose.
 
 - `--no-install-project`: Do not install the current project
 - `--no-install-workspace`: Do not install any workspace members, including the root project
+- `--no-install-local`: Do not install the current project, any workspace members, or any other
+  local path or editable packages
 - `--no-install-package <NO_INSTALL_PACKAGE>`: Do not install the given package(s)
 
-When these options are used, all the dependencies of the target are still installed. For example,
-`--no-install-project` will omit the _project_ but not any of its dependencies.
+When any of these options omits a target, uv still installs all of that target's dependencies. For
+example, `--no-install-project` will omit the _project_ but not any of its dependencies.
+
+The matching environment variables `UV_NO_INSTALL_PROJECT=1`, `UV_NO_INSTALL_WORKSPACE=1`, and
+`UV_NO_INSTALL_LOCAL=1` provide the same behavior as the corresponding command-line flags.
+
+```console
+$ UV_NO_INSTALL_PROJECT=1 uv sync
+```
+
+Matching `--only-install-*` options take precedence over these environment variables.
 
 If used improperly, these flags can result in a broken environment since a package can be missing
 its dependencies.
