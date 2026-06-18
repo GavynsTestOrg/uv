@@ -45,6 +45,21 @@ $ uv export --format cyclonedx1.5
 The `requirements.txt` format is the most widely supported format for Python dependencies. It can be
 used with `pip` and other Python package managers.
 
+Use `--emit-index-url` to add `--index-url` and `--extra-index-url` directives to the exported
+`requirements.txt` output. This helps downstream installers resolve packages from the same custom
+package indexes.
+
+```console
+$ uv export --format requirements.txt --emit-index-url
+```
+
+Use `--emit-find-links` to add `--find-links` directives to the exported output. This helps
+downstream installers resolve packages from the same custom indexes or find-links sources.
+
+```console
+$ uv export --format requirements.txt --emit-find-links
+```
+
 ### Basic usage
 
 ```console
