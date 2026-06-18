@@ -151,6 +151,19 @@ To remove a package, you can use `uv remove`:
 $ uv remove requests
 ```
 
+`uv add` also supports environment variables for the same installation controls as the related
+command options:
+
+- Set `UV_NO_INSTALL_PROJECT=1` to update the lockfile and environment without installing the
+  current project.
+- Set `UV_NO_INSTALL_WORKSPACE=1` to skip installation for all workspace members, including the
+  root project.
+- Set `UV_NO_INSTALL_LOCAL=1` to skip local path and editable packages, including the current
+  project and workspace members.
+
+If `--only-install-project`, `--only-install-workspace`, or `--only-install-local` is present on
+the command line, that option overrides the corresponding `UV_NO_INSTALL_*` setting.
+
 To upgrade a package, run `uv lock` with the `--upgrade-package` flag:
 
 ```console
@@ -250,6 +263,17 @@ executing a command:
     PS> flask run -p 3000
     PS> python example.py
     ```
+
+`uv sync` supports the same installation controls through environment variables:
+
+- Set `UV_NO_INSTALL_PROJECT=1` to install dependencies without installing the current project.
+- Set `UV_NO_INSTALL_WORKSPACE=1` to install dependencies without installing workspace members,
+  including the root project.
+- Set `UV_NO_INSTALL_LOCAL=1` to install only remote dependencies and skip local path and editable
+  packages.
+
+If `--only-install-project`, `--only-install-workspace`, or `--only-install-local` is present on
+the command line, that option overrides the corresponding `UV_NO_INSTALL_*` setting.
 
 !!! note
 
