@@ -225,6 +225,8 @@ As with `uvx`, installations can include additional packages:
 $ uv tool install mkdocs --with mkdocs-material
 ```
 
+If an editable tool comes from an explicit local directory, reinstalling it picks up updated versions or commands. For example, `uv tool install -e .` refreshes the installed tool when those values change.
+
 Multiple related executables can be installed together in the same tool environment, using the
 `--with-executables-from` flag. For example, the following will install the executables from
 `ansible`, plus those ones provided by `ansible-core` and `ansible-lint`:

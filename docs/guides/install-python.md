@@ -38,6 +38,8 @@ include the experimental `--default` option:
 $ uv python install --default
 ```
 
+If unmanaged `python`, `python3`, or `python3.x` executables already exist, `uv` reports them in a single grouped error.
+
 !!! tip
 
     See the documentation on [installing Python executables](../concepts/python-versions.md#installing-python-executables)
