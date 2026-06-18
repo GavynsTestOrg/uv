@@ -47,9 +47,10 @@ Hello from hello-world!
 ## Project structure
 
 A project consists of a few important parts that work together and allow uv to manage your project.
-In addition to the files created by `uv init`, uv will create a virtual environment and `uv.lock`
-file in the root of your project the first time you run a project command, i.e., `uv run`,
-`uv sync`, or `uv lock`.
+`uv init` creates the project files that define the project itself, such as `pyproject.toml`,
+`.python-version`, and the starter source files. uv creates the project environment in `.venv`
+and the `uv.lock` lockfile later, the first time a project command such as `uv run`, `uv sync`,
+or `uv lock` needs them.
 
 A complete listing would look like:
 
@@ -101,7 +102,8 @@ Python version to use when creating the project's virtual environment.
 ### `.venv`
 
 The `.venv` folder contains your project's virtual environment, a Python environment that is
-isolated from the rest of your system. This is where uv will install your project's dependencies.
+isolated from the rest of your system. This is the project environment that project commands use,
+and it is where uv installs your project's dependencies.
 
 See the [project environment](../concepts/projects/layout.md#the-project-environment) documentation
 for more details.
@@ -109,10 +111,10 @@ for more details.
 ### `uv.lock`
 
 `uv.lock` is a cross-platform lockfile that contains exact information about your project's
-dependencies. Unlike the `pyproject.toml` which is used to specify the broad requirements of your
-project, the lockfile contains the exact resolved versions that are installed in the project
-environment. This file should be checked into version control, allowing for consistent and
-reproducible installations across machines.
+dependencies. Unlike `pyproject.toml`, which specifies the broad requirements of your project,
+`uv.lock` records the exact resolved versions installed in the project environment. This file
+should be checked into version control, allowing for consistent and reproducible installations
+across machines.
 
 `uv.lock` is a human-readable TOML file but is managed by uv and should not be edited manually.
 
@@ -199,10 +201,14 @@ version.
 
 `uv run` can be used to run arbitrary scripts or commands in your project environment.
 
-Prior to every `uv run` invocation, uv will verify that the lockfile is up-to-date with the
-`pyproject.toml`, and that the environment is up-to-date with the lockfile, keeping your project
-in-sync without the need for manual intervention. `uv run` guarantees that your command is run in an
-environment with all required dependencies at their locked versions.
+Before each `uv run`, uv checks the project in this order:
+
+1. It verifies that `uv.lock` matches `pyproject.toml`.
+2. It verifies that `.venv` matches `uv.lock`.
+
+If either check shows that the project needs an update, uv updates the lockfile or environment
+before running the command. `uv run` ensures that the command runs in the project environment with
+the required dependencies at their locked versions.
 
 !!! note
 
