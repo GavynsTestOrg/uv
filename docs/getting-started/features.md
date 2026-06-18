@@ -1,9 +1,9 @@
 # Features
 
-uv provides essential features for Python development — from installing Python and hacking on simple
-scripts to working on large projects that support multiple Python versions and platforms.
+uv provides essential features for Python development — from installing Python and running simple
+scripts to working on projects that support multiple Python versions and platforms.
 
-uv's interface can be broken down into sections, which are usable independently or together.
+uv organizes its interface into sections, which work independently or together.
 
 ## Python versions
 
@@ -29,7 +29,7 @@ See the [guide on running scripts](../guides/scripts.md) to get started.
 
 ## Projects
 
-Creating and working on Python projects, i.e., with a `pyproject.toml`.
+Creating and working on Python projects with a `pyproject.toml`.
 
 - `uv init`: Create a new Python project.
 - `uv add`: Add a dependency to the project.
