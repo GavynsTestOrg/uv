@@ -213,10 +213,28 @@ while building a Docker image. `uv sync` has several flags for this purpose.
 
 - `--no-install-project`: Do not install the current project
 - `--no-install-workspace`: Do not install any workspace members, including the root project
+- `--no-install-local`: Do not install the current project, workspace members, or any other local
+  path or editable packages
 - `--no-install-package <NO_INSTALL_PACKAGE>`: Do not install the given package(s)
 
 When these options are used, all the dependencies of the target are still installed. For example,
 `--no-install-project` will omit the _project_ but not any of its dependencies.
+
+These behaviors are also available through environment variables:
+
+- `UV_NO_INSTALL_PROJECT=1`: Install dependencies but skip installing the current project
+- `UV_NO_INSTALL_WORKSPACE=1`: Skip all workspace members, including the root project
+- `UV_NO_INSTALL_LOCAL=1`: Skip the current project, workspace members, and other local path or
+  editable packages so only remote dependencies are installed
+
+For example:
+
+```console
+$ UV_NO_INSTALL_PROJECT=1 uv sync
+```
+
+The matching `--only-install-*` option takes precedence and causes uv to ignore the environment
+variable.
 
 If used improperly, these flags can result in a broken environment since a package can be missing
 its dependencies.
